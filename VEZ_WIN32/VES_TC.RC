@@ -1,0 +1,58 @@
+/****************************************************************************
+
+
+ves_tc.rc
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+#include "ves_rc.h"
+#include <windows.h>
+
+DLG_TYPE DIALOG -37, 16, 340, 203
+STYLE 0x2004L | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Solve Sounding Curve"
+FONT 8, "MS Sans Serif"
+{
+ SCROLLBAR IDC_SB_NLAYERS_TC, 4, 4, 19, 10, SBS_HORZ
+ LTEXT "&Layers", -1, 25, 5, 24, 8
+ CONTROL "3", IDC_EB_NLAYERS_TC, "EDIT", WS_BORDER | WS_TABSTOP, 50, 4, 16, 12
+ GROUPBOX "Model", -1, 1, 22, 84, 131, BS_GROUPBOX
+ RTEXT "1", -1, 3, 47, 7, 10
+ RTEXT "2", -1, 3, 60, 7, 10
+ RTEXT "3", -1, 3, 73, 7, 10
+ RTEXT "4", -1, 3, 86, 7, 10
+ RTEXT "5", -1, 3, 99, 7, 10
+ RTEXT "6", -1, 3, 112, 7, 10
+ RTEXT "7", -1, 3, 125, 7, 10
+ RTEXT "8", -1, 3, 138, 7, 10
+ CTEXT "Resist", -1, 15, 34, 34, 10
+ CONTROL "100", IDC_R1, "EDIT", WS_BORDER | WS_TABSTOP, 15, 46, 34, 11
+ EDITTEXT IDC_R2, 15, 59, 34, 11
+ EDITTEXT IDC_R3, 15, 72, 34, 11
+ EDITTEXT IDC_R4, 15, 85, 34, 11
+ EDITTEXT IDC_R5, 15, 98, 34, 11
+ EDITTEXT IDC_R6, 15, 111, 34, 11
+ EDITTEXT IDC_R7, 15, 124, 34, 11
+ EDITTEXT IDC_R8, 16, 137, 34, 11
+ CTEXT "Thick", -1, 54, 34, 28, 10
+ CONTROL "1", IDC_H1, "EDIT", WS_BORDER | WS_TABSTOP, 53, 46, 28, 11
+ EDITTEXT IDC_H2, 53, 59, 28, 11
+ EDITTEXT IDC_H3, 53, 72, 28, 11
+ EDITTEXT IDC_H4, 53, 85, 28, 11
+ EDITTEXT IDC_H5, 53, 98, 28, 11
+ EDITTEXT IDC_H6, 53, 111, 28, 11
+ EDITTEXT IDC_H7, 53, 124, 28, 11
+ CONTROL "10", IDC_FIRSTABS, "EDIT", WS_BORDER | WS_TABSTOP, 3, 158, 20, 12
+ LTEXT "&First Abscissa", -1, 25, 159, 50, 9
+ CONTROL "15", IDC_NSAMPLES, "EDIT", WS_BORDER | WS_TABSTOP, 3, 174, 20, 12
+ LTEXT "&Samples", -1, 26, 175, 50, 9
+ CHECKBOX "Write to file", IDC_WRTOFILE, 4, 191, 60, 12, BS_AUTOCHECKBOX | WS_TABSTOP
+ DEFPUSHBUTTON "Run!", IDOK, 185, 186, 50, 14
+ PUSHBUTTON "Cancel", IDCANCEL, 236, 186, 50, 14
+ PUSHBUTTON "Help", IDHELP, 287, 186, 50, 14
+ CONTROL "", IDC_FRAME, "static", SS_GRAYFRAME | WS_CHILD | WS_VISIBLE, 87, 10, 251, 164
+}
+

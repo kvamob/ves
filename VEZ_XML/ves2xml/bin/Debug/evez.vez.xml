@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<area name="Электромедь">
+  <areadescr />
+  <generated app="ves2xml.exe" ver="1.0.5.3" src="evez.vez" culture="en-US" date="8/23/2004 2:44:01 PM" />
+  <profil name="2" type="profil">
+    <profildescr />
+    <curves>
+      <curve name="ПР2 ПК1" date="" x="0" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="186" />
+          <sample ab2="1.5" ro="143" />
+          <sample ab2="2.2" ro="99" />
+          <sample ab2="3" ro="73" />
+          <sample ab2="5" ro="30" />
+          <sample ab2="7" ro="19" />
+          <sample ab2="9" ro="18" />
+          <sample ab2="15" ro="20" />
+          <sample ab2="20" ro="25" />
+          <sample ab2="25" ro="28" />
+          <sample ab2="40" ro="41" />
+        </samples>
+        <layers />
+        <image>evez.vez-0.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК2" date="" x="25" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="154" />
+          <sample ab2="1.5" ro="159" />
+          <sample ab2="2.2" ro="146" />
+          <sample ab2="3" ro="94" />
+          <sample ab2="5" ro="47" />
+          <sample ab2="7" ro="39" />
+          <sample ab2="9" ro="33" />
+          <sample ab2="15" ro="16" />
+          <sample ab2="20" ro="32" />
+          <sample ab2="25" ro="37" />
+          <sample ab2="40" ro="34" />
+        </samples>
+        <layers />
+        <image>evez.vez-1.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК3" date="" x="50" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="89" />
+          <sample ab2="1.5" ro="80" />
+          <sample ab2="2.2" ro="47" />
+          <sample ab2="3" ro="35" />
+          <sample ab2="5" ro="22" />
+          <sample ab2="7" ro="20" />
+          <sample ab2="9" ro="13" />
+          <sample ab2="15" ro="9" />
+          <sample ab2="20" ro="7" />
+          <sample ab2="25" ro="4" />
+          <sample ab2="40" ro="1" />
+        </samples>
+        <layers />
+        <image>evez.vez-2.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК4" date="" x="72" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="89" />
+          <sample ab2="1.5" ro="50" />
+          <sample ab2="2.2" ro="36" />
+          <sample ab2="3" ro="30" />
+          <sample ab2="5" ro="11" />
+          <sample ab2="7" ro="11" />
+          <sample ab2="9" ro="10" />
+          <sample ab2="15" ro="7" />
+          <sample ab2="20" ro="10" />
+          <sample ab2="25" ro="8" />
+          <sample ab2="40" ro="8" />
+        </samples>
+        <layers />
+        <image>evez.vez-3.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК5" date="" x="97" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="139" />
+          <sample ab2="1.5" ro="95" />
+          <sample ab2="2.2" ro="68" />
+          <sample ab2="3" ro="47" />
+          <sample ab2="5" ro="19" />
+          <sample ab2="7" ro="16" />
+          <sample ab2="9" ro="19" />
+          <sample ab2="15" ro="38" />
+          <sample ab2="20" ro="60" />
+          <sample ab2="25" ro="42" />
+          <sample ab2="40" ro="26" />
+        </samples>
+        <layers />
+        <image>evez.vez-4.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК6" date="" x="130" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="67" />
+          <sample ab2="1.5" ro="64" />
+          <sample ab2="2.2" ro="55" />
+          <sample ab2="3" ro="49" />
+          <sample ab2="5" ro="40" />
+          <sample ab2="7" ro="36" />
+          <sample ab2="9" ro="26" />
+          <sample ab2="15" ro="19" />
+          <sample ab2="20" ro="17" />
+          <sample ab2="25" ro="12" />
+          <sample ab2="40" ro="9" />
+        </samples>
+        <layers />
+        <image>evez.vez-5.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК7" date="" x="155" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="76" />
+          <sample ab2="1.5" ro="64" />
+          <sample ab2="2.2" ro="57" />
+          <sample ab2="3" ro="46" />
+          <sample ab2="5" ro="35" />
+          <sample ab2="7" ro="33" />
+          <sample ab2="9" ro="39" />
+          <sample ab2="15" ro="34" />
+          <sample ab2="20" ro="32" />
+          <sample ab2="25" ro="26" />
+          <sample ab2="40" ro="15" />
+        </samples>
+        <layers />
+        <image>evez.vez-6.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК8" date="" x="180" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="67" />
+          <sample ab2="1.5" ro="84" />
+          <sample ab2="2.2" ro="63" />
+          <sample ab2="3" ro="43" />
+          <sample ab2="5" ro="32" />
+          <sample ab2="7" ro="35" />
+          <sample ab2="9" ro="34" />
+          <sample ab2="15" ro="26" />
+          <sample ab2="20" ro="21" />
+          <sample ab2="25" ro="20" />
+          <sample ab2="40" ro="10" />
+        </samples>
+        <layers />
+        <image>evez.vez-7.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК9" date="" x="205" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="107" />
+          <sample ab2="1.5" ro="143" />
+          <sample ab2="2.2" ro="183" />
+          <sample ab2="3" ro="177" />
+          <sample ab2="5" ro="153" />
+          <sample ab2="7" ro="5" />
+          <sample ab2="9" ro="34" />
+          <sample ab2="15" ro="24" />
+          <sample ab2="20" ro="26" />
+          <sample ab2="25" ro="22" />
+          <sample ab2="40" ro="11" />
+        </samples>
+        <layers />
+        <image>evez.vez-8.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК10" date="" x="239" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="98" />
+          <sample ab2="1.5" ro="127" />
+          <sample ab2="2.2" ro="137" />
+          <sample ab2="3" ro="167" />
+          <sample ab2="5" ro="69" />
+          <sample ab2="7" ro="58" />
+          <sample ab2="9" ro="34" />
+          <sample ab2="15" ro="24" />
+          <sample ab2="20" ro="26" />
+          <sample ab2="25" ro="27" />
+          <sample ab2="40" ro="38" />
+        </samples>
+        <layers />
+        <image>evez.vez-9.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК11" date="" x="264" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="537" />
+          <sample ab2="1.5" ro="437" />
+          <sample ab2="2.2" ro="411" />
+          <sample ab2="3" ro="94" />
+          <sample ab2="5" ro="98" />
+          <sample ab2="7" ro="30" />
+          <sample ab2="9" ro="26" />
+          <sample ab2="15" ro="19" />
+          <sample ab2="20" ro="16" />
+          <sample ab2="25" ro="13" />
+          <sample ab2="40" ro="10" />
+        </samples>
+        <layers />
+        <image>evez.vez-10.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК12" date="" x="289" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="89" />
+          <sample ab2="1.5" ro="119" />
+          <sample ab2="2.2" ro="119" />
+          <sample ab2="3" ro="115" />
+          <sample ab2="5" ro="74" />
+          <sample ab2="7" ro="29" />
+          <sample ab2="9" ro="22" />
+          <sample ab2="15" ro="20" />
+          <sample ab2="20" ro="21" />
+          <sample ab2="25" ro="20" />
+          <sample ab2="40" ro="21" />
+        </samples>
+        <layers />
+        <image>evez.vez-11.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК13" date="" x="314" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="98" />
+          <sample ab2="1.5" ro="119" />
+          <sample ab2="2.2" ro="110" />
+          <sample ab2="3" ro="110" />
+          <sample ab2="5" ro="69" />
+          <sample ab2="7" ro="36" />
+          <sample ab2="9" ro="29" />
+          <sample ab2="15" ro="23" />
+          <sample ab2="20" ro="20" />
+          <sample ab2="25" ro="19" />
+          <sample ab2="40" ro="9" />
+        </samples>
+        <layers />
+        <image>evez.vez-12.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК14" date="" x="364" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="94" />
+          <sample ab2="1.5" ro="72" />
+          <sample ab2="2.2" ro="41" />
+          <sample ab2="3" ro="30" />
+          <sample ab2="5" ro="30" />
+          <sample ab2="7" ro="25" />
+          <sample ab2="9" ro="26" />
+          <sample ab2="15" ro="28" />
+          <sample ab2="20" ro="25" />
+          <sample ab2="25" ro="25" />
+          <sample ab2="40" ro="11" />
+        </samples>
+        <layers />
+        <image>evez.vez-13.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК15" date="" x="389" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="107" />
+          <sample ab2="1.5" ro="64" />
+          <sample ab2="2.2" ro="38" />
+          <sample ab2="3" ro="28" />
+          <sample ab2="5" ro="24" />
+          <sample ab2="7" ro="23" />
+          <sample ab2="9" ro="22" />
+          <sample ab2="15" ro="21" />
+          <sample ab2="20" ro="21" />
+          <sample ab2="25" ro="19" />
+          <sample ab2="40" ro="10" />
+        </samples>
+        <layers />
+        <image>evez.vez-14.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК16" date="" x="414" y="0" z="0" rms="0" layers="0">
+        <samples>
+          <sample ab2="1" ro="89" />
+          <sample ab2="1.5" ro="64" />
+          <sample ab2="2.2" ro="33" />
+          <sample ab2="3" ro="30" />
+          <sample ab2="5" ro="24" />
+          <sample ab2="7" ro="28" />
+          <sample ab2="9" ro="27" />
+          <sample ab2="15" ro="29" />
+          <sample ab2="20" ro="32" />
+          <sample ab2="25" ro="43" />
+          <sample ab2="40" ro="59" />
+        </samples>
+        <layers />
+        <image>evez.vez-15.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+    </curves>
+  </profil>
+</area>

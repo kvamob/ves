@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<xs:schema id="NewDataSet" targetNamespace="http://tempuri.org/vez_new.xsd" xmlns:mstns="http://tempuri.org/vez_new.xsd" xmlns="http://tempuri.org/vez_new.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="area">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="areadescr" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+				<xs:element name="profil" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="profildescr" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+							<xs:element name="curves" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="profildescr" type="xs:string" minOccurs="0" />
+										<xs:element name="curve" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="image" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+													<xs:element name="curvedescr" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+													<xs:element name="operator" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+													<xs:element name="calculator" type="xs:string" minOccurs="0" msdata:Ordinal="4" />
+													<xs:element name="weather" type="xs:string" minOccurs="0" msdata:Ordinal="5" />
+													<xs:element name="device" type="xs:string" minOccurs="0" msdata:Ordinal="6" />
+													<xs:element name="samples" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="sample" minOccurs="0" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:attribute name="ab2" form="unqualified" type="xs:string" />
+																		<xs:attribute name="mn2" form="unqualified" type="xs:string" />
+																		<xs:attribute name="i" form="unqualified" type="xs:string" />
+																		<xs:attribute name="u" form="unqualified" type="xs:string" />
+																		<xs:attribute name="diap" form="unqualified" type="xs:string" />
+																		<xs:attribute name="ro" form="unqualified" type="xs:string" />
+																		<xs:attribute name="rt" form="unqualified" type="xs:string" />
+																		<xs:attribute name="note" form="unqualified" type="xs:string" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="layers" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="layer" minOccurs="0" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:attribute name="id" form="unqualified" type="xs:string" />
+																		<xs:attribute name="h" form="unqualified" type="xs:string" />
+																		<xs:attribute name="r" form="unqualified" type="xs:string" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="id" form="unqualified" type="xs:string" />
+												<xs:attribute name="name" form="unqualified" type="xs:string" />
+												<xs:attribute name="pk" form="unqualified" type="xs:string" />
+												<xs:attribute name="date" form="unqualified" type="xs:string" />
+												<xs:attribute name="x" form="unqualified" type="xs:string" />
+												<xs:attribute name="y" form="unqualified" type="xs:string" />
+												<xs:attribute name="z" form="unqualified" type="xs:string" />
+												<xs:attribute name="rms" form="unqualified" type="xs:string" />
+												<xs:attribute name="layers" form="unqualified" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" form="unqualified" type="xs:string" />
+						<xs:attribute name="name" form="unqualified" type="xs:string" />
+						<xs:attribute name="type" form="unqualified" type="xs:string" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="id" form="unqualified" type="xs:string" />
+			<xs:attribute name="name" form="unqualified" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

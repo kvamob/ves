@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="VEZ_XML_SOLUTION">
+</Property><Property Name="Solution File" Value="C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\VEZ_XML_SOLUTION.sln">
+</Property><Property Name="User Options File" Value="C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\VEZ_XML_SOLUTION.suo">
+</Property><Property Name="Date" Value="20 января 2006 г.">
+</Property><Property Name="Time" Value="15:43">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="VEZ_XML_SOLUTION.sln" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VEZ_XML_SOLUTION.sln">
+</Event><Event ErrorLevel="0" Project="" Source="VEZ_XML_SOLUTION.suo" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VEZ_XML_SOLUTION.suo">
+</Event><Event ErrorLevel="1" Project="VesExplore" Source="..\VesExplore\VesExplore.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\VesExplore.csproj" Description="Project file successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\VesExplore.csproj">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\VesExplore.csproj.user" Description="Project user file successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\VesExplore.csproj.user">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\AboutForm.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\AboutForm.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\AddCurveForm.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\AddCurveForm.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\AddCurveSettings.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\AddCurveSettings.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\AddProfilForm.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\AddProfilForm.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\AddProfilSettings.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\AddProfilSettings.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\AssemblyInfo.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\InterprForm.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\InterprForm.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\MainForm.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\NewFileForm.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\NewFileForm.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\NewFileSettings.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\NewFileSettings.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\OSInfoClass.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\OSInfoClass.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\PrintingSettings.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\PrintingSettings.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\ProfilTypeMap.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\ProfilTypeMap.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\Settings.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\Settings.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\SettingsForm.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\SettingsForm.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\VesArea.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\VesArea.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\VesCurve.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\VesCurve.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\VesProfil.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\VesProfil.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\VesXml.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\VesXml.cs">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\VesExplore.exe.manifest" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\VesExplore.exe.manifest">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\App.ico" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\App.ico">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\VES.ICO" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\VES.ICO">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\AboutForm.resx" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\AboutForm.resx">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\AddCurveForm.resx" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\AddCurveForm.resx">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\AddProfilForm.resx" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\AddProfilForm.resx">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\InterprForm.resx" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\InterprForm.resx">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\MainForm.resx" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\NewFileForm.resx" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\NewFileForm.resx">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\SettingsForm.resx" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\VesExplore\SettingsForm.resx">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\VesExplore.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="VesExplore" Source="..\VesExplore\VesExplore.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="ves2xml" Source="..\ves2xml\ves2xml.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="ves2xml" Source="..\ves2xml\ves2xml.csproj" Description="Project file successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\ves2xml\ves2xml.csproj">
+</Event><Event ErrorLevel="0" Project="ves2xml" Source="..\ves2xml\ves2xml.csproj.user" Description="Project user file successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\ves2xml\ves2xml.csproj.user">
+</Event><Event ErrorLevel="0" Project="ves2xml" Source="..\ves2xml\AssemblyInfo.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\ves2xml\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ves2xml" Source="..\ves2xml\CurveClass.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\ves2xml\CurveClass.cs">
+</Event><Event ErrorLevel="0" Project="ves2xml" Source="..\ves2xml\ModelClass.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\ves2xml\ModelClass.cs">
+</Event><Event ErrorLevel="0" Project="ves2xml" Source="..\ves2xml\TextVezFileParserClass.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\ves2xml\TextVezFileParserClass.cs">
+</Event><Event ErrorLevel="0" Project="ves2xml" Source="..\ves2xml\Ves2Xml.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\ves2xml\Ves2Xml.cs">
+</Event><Event ErrorLevel="0" Project="ves2xml" Source="..\ves2xml\VesFileHeaderClass.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\ves2xml\VesFileHeaderClass.cs">
+</Event><Event ErrorLevel="0" Project="ves2xml" Source="..\ves2xml\VesFileType.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\ves2xml\VesFileType.cs">
+</Event><Event ErrorLevel="0" Project="ves2xml" Source="..\ves2xml\App.ico" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\ves2xml\App.ico">
+</Event><Event ErrorLevel="0" Project="ves2xml" Source="..\ves2xml\ves2xml.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ves2xml" Source="..\ves2xml\ves2xml.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="CommandManager" Source="..\CommandManager\CommandManager.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="CommandManager" Source="..\CommandManager\CommandManager.csproj" Description="Project file successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\CommandManager\CommandManager.csproj">
+</Event><Event ErrorLevel="0" Project="CommandManager" Source="..\CommandManager\CommandManager.csproj.user" Description="Project user file successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\CommandManager\CommandManager.csproj.user">
+</Event><Event ErrorLevel="0" Project="CommandManager" Source="..\CommandManager\AssemblyInfo.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\CommandManager\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CommandManager" Source="..\CommandManager\Command.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\CommandManager\Command.cs">
+</Event><Event ErrorLevel="0" Project="CommandManager" Source="..\CommandManager\CommandExecutor.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\CommandManager\CommandExecutor.cs">
+</Event><Event ErrorLevel="0" Project="CommandManager" Source="..\CommandManager\CommandManager.cs" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\CommandManager\CommandManager.cs">
+</Event><Event ErrorLevel="0" Project="CommandManager" Source="..\CommandManager\CommandManager.resx" Description="File successfully backed up as C:\USER\VEZ\VEZ_XML\VEZ_XML_SOLUTION\Backup\CommandManager\CommandManager.resx">
+</Event><Event ErrorLevel="0" Project="CommandManager" Source="..\CommandManager\CommandManager.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CommandManager" Source="..\CommandManager\CommandManager.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="VEZ_XML_SOLUTION.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="VEZ_XML_SOLUTION.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VesExplore" Source="..\VesExplore\VesExplore.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ves2xml" Source="..\ves2xml\ves2xml.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="CommandManager" Source="..\CommandManager\CommandManager.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

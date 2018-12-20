@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ves2xml</name>
+    </assembly>
+    <members>
+        <member name="T:ves2xml.VesFileHeaderClass">
+            <summary>
+            Класс заголовка VES-файла
+            </summary>
+        </member>
+        <member name="M:ves2xml.VesFileHeaderClass.#ctor">
+            <summary>
+            Конструктор
+            </summary>
+        </member>
+        <member name="F:ves2xml.VesFileHeaderClass.nPoints">
+            <summary>
+            Число точек ВЭЗ на пpофиле
+            </summary>
+        </member>
+        <member name="F:ves2xml.VesFileHeaderClass.areaName">
+            <summary>
+            Имя участка
+            </summary>
+        </member>
+        <member name="F:ves2xml.VesFileHeaderClass.profName">
+            <summary>
+            Имя профиля
+            </summary>
+        </member>
+        <member name="M:ves2xml.VesFileHeaderClass.loadFromBinFile(System.IO.FileStream)">
+            <summary>
+             Загрузить заголовок двоичного файла VES из потока<br />
+             Метод вызывается из метода <b>Load()</b>
+            </summary>
+            <param name="stream">Входной поток</param>
+        </member>
+        <member name="M:ves2xml.VesFileHeaderClass.Load(System.IO.FileStream)">
+            <summary>
+             Загрузить заголовок файла VES из потока. <br />
+             Поток должен быть уже открыт: <br />
+             <example>
+             <code>
+            // Откроем поток<br />
+            FileStream vesFile = new FileStream("evez.ves", FileMode.Open, FileAccess.Read);<br />
+            // Загрузить заголовок<br />
+            hdrVES.Load(vesFile);<br />
+            </code>
+             </example>
+            </summary>
+            <param name="stream">Входной поток</param>
+        </member>
+        <member name="M:ves2xml.VesFileHeaderClass.Load(System.IO.StreamReader)">
+            <summary>
+            
+            </summary>
+            <param name="reader"></param>
+        </member>
+        <member name="M:ves2xml.VesFileHeaderClass.loadFromTxtFile(System.IO.StreamReader)">
+            <summary>
+             Загрузить заголовок текстового файла VEZS из потока<br />
+             Метод вызывается из метода <b>Load()</b>
+            </summary>
+            <param name="sr">Входной поток</param>
+        </member>
+        <member name="T:ves2xml.CurveClass">
+            <summary>
+            Класс кривой ВЭЗ
+            </summary>
+        </member>
+        <member name="M:ves2xml.CurveClass.#ctor">
+            <summary>
+            Конструктор
+            </summary>
+        </member>
+        <member name="F:ves2xml.CurveClass.nSamples">
+            <summary>
+            Кол-во отсчетов на кривой
+            </summary>
+        </member>
+        <member name="F:ves2xml.CurveClass.fRok">
+            <summary>
+            Массив измеренных значений Омм
+            </summary>
+        </member>
+        <member name="F:ves2xml.CurveClass.tRok">
+            <summary>
+            Массив вычисленных значений Омм
+            </summary>
+        </member>
+        <member name="F:ves2xml.CurveClass.AB2">
+            <summary>
+            Массив значений AB/2 метры
+            </summary>
+        </member>
+        <member name="F:ves2xml.CurveClass.curveName">
+            <summary>
+            Имя кривой
+            </summary>
+        </member>
+        <member name="F:ves2xml.CurveClass.hashCode">
+            <summary>
+            Код
+            </summary>
+        </member>
+        <member name="F:ves2xml.CurveClass.id">
+            <summary> 
+            Идентификатор кривой
+            </summary>
+        </member>
+        <member name="F:ves2xml.CurveClass.areaName">
+            <summary>
+            Наименование участка
+            </summary>
+        </member>
+        <member name="F:ves2xml.CurveClass.profName">
+            <summary>
+            Наименование профиля
+            </summary>
+        </member>
+        <member name="M:ves2xml.CurveClass.loadFromBinFile(System.IO.FileStream)">
+            <summary>
+            Загрузить кривую из двоичного ВЭЗ файла (формат VES)<br />
+            Метод вызывается из метода <b>Load()</b>
+            </summary>
+            <param name="stream">Входной поток</param>
+        </member>
+        <member name="M:ves2xml.CurveClass.Draw(System.String)">
+            <summary>
+            Вывести кривую в файл формата GIF
+            </summary>
+            <param name="fileName">Имя выходного файла формата GIF</param>
+        </member>
+        <member name="M:ves2xml.CurveClass.drawLogBlank(System.Drawing.Graphics)">
+            <summary>
+            Рисовать логарифмический бланк
+            </summary>
+        </member>
+        <member name="M:ves2xml.CurveClass.drawVesCurve(System.Drawing.Graphics)">
+            <summary>
+            Рисует кривые на бланке
+            </summary>
+        </member>
+        <member name="M:ves2xml.CurveClass.ExportToXml(System.Xml.XmlWriter,System.String)">
+            <summary>
+            Экспорт кривой в выходной XML файл с помощью класса XmlWriter<br />
+            Кривая уже должна быть загружена.<br /><br />
+            <example>
+            <code>
+            XmlTextWriter xmlWriter = new XmlTextWriter(outputXmlFile, System.Text.Encoding.GetEncoding(1251));<br />
+            xmlWriter.Formatting = Formatting.Indented;<br />
+            xmlWriter.WriteStartDocument();<br />
+            ...<br />
+            ...<br />
+            currCurve.loadFromFile(vesFile);<br />
+            currCurve.ExportToXml(xmlWriter,"curve.gif");<br />
+            </code>
+            </example>
+            </summary>
+            <param name="xmlWriter">Экземпляр класса XmlWriter</param>
+            <param name="gifName">Имя файла GIF с картинкой</param>
+        </member>
+        <member name="M:ves2xml.CurveClass.Load(System.IO.FileStream)">
+            <summary>
+            Загрузить кривую из потока.<br />
+            Поток должен быть уже открыт и заголовок профиля уже должен
+            быть считан из этого же потока методом <b>Load()</b> класса <b>VesFileHeaderClass:</b><br /><br />
+            <example>
+            <code>
+            // Откроем поток<br />
+            FileStream vesFile = new FileStream("file.ves", FileMode.Open, FileAccess.Read);<br />
+            fileType = GetFileType(inputFile);		// Тип ВЭЗ-файла<br />
+            <br />
+            // Загрузить заголовок<br />
+            hdrVES.Load(vesFile, fileType);<br />
+            </code>
+            </example>
+            </summary>
+            <param name="stream"></param>
+        </member>
+        <member name="M:ves2xml.CurveClass.Load(System.IO.StreamReader)">
+            <summary>
+            
+            </summary>
+            <param name="reader"></param>
+        </member>
+        <member name="M:ves2xml.CurveClass.loadFromTextFile(System.IO.StreamReader)">
+            <summary>
+            Загрузить кривую из текстового ВЭЗ файла (формат VEZ)<br />
+            Метод вызывается из метода <b>Load()</b>
+            </summary>
+            <param name="sr">Входной текстовый поток</param>
+        </member>
+        <member name="T:ves2xml.TextVezFileParserClass">
+            <summary>
+            Вспомогательный класс для работы с текстовыми файлами VEZ
+            </summary>
+        </member>
+        <member name="M:ves2xml.TextVezFileParserClass.#ctor">
+            <summary>
+            Конструктор
+            </summary>
+        </member>
+        <member name="M:ves2xml.TextVezFileParserClass.ParseParam(System.IO.StreamReader)">
+            <summary>
+            Ищет в потоке строку вида <b>param : value</b> и возвращает значение value
+            </summary>
+            <param name="sr">Текстовый поток</param>
+            <returns>Значение параметра</returns>
+        </member>
+        <member name="M:ves2xml.TextVezFileParserClass.CountCurves(System.IO.FileStream)">
+            <summary>
+            Подсчитывает кол-во кривых ВЭЗ в потоке, указатель потока
+            не сдвигается.
+            </summary>
+            <param name="stream"></param>
+            <returns>Кол-во кривых ВЭЗ в потоке</returns>
+        </member>
+        <member name="M:ves2xml.TextVezFileParserClass.CountCurves(System.IO.StreamReader)">
+            <summary>
+            
+            </summary>
+            <param name="sr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ves2xml.Ves2XmlClass">
+            <summary>
+            Приложение конвертации двоичных и текстовых файлов формата VES(VEZ) в файлы XML
+            и рисования кривых ВЭЗ в графических файлах (по одному файлу на кривую)
+            </summary>
+        </member>
+        <member name="M:ves2xml.Ves2XmlClass.Main(System.String[])">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:ves2xml.Ves2XmlClass.PrintGreeting(System.String,System.String)">
+            <summary>
+            Выводит на экран информацио о приложении
+            </summary>
+            <param name="appname">Имя exe-файла приложения</param>
+            <param name="version">Версия приложения</param>
+        </member>
+        <member name="M:ves2xml.Ves2XmlClass.GetFileType(System.String)">
+            <summary>
+            Определяет тип файла ВЭЗ - двоичный, текстовый или неверный формат
+            </summary>
+            <param name="fileName">Имя файла ВЭЗ</param>
+            <returns>Тип файла</returns>
+        </member>
+        <member name="P:ves2xml.Ves2XmlClass.Version">
+            <summary>
+            Версия сборки
+            </summary>
+        </member>
+        <member name="P:ves2xml.Ves2XmlClass.AppName">
+            <summary>
+            Имя файла сборки
+            </summary>
+        </member>
+        <member name="T:ves2xml.VesFileType">
+            <summary>
+            Тип входного файла 
+            </summary>
+        </member>
+        <member name="F:ves2xml.VesFileType.Binary">
+            <summary>
+            Двоичный файл формата VES
+            </summary>
+        </member>
+        <member name="F:ves2xml.VesFileType.Text">
+            <summary>
+            Текстовый файл формата VEZ
+            </summary>
+        </member>
+        <member name="F:ves2xml.VesFileType.NotValid">
+            <summary>
+            Неверная сигнатура - файл не содержит кривых ВЭЗ
+            </summary>
+        </member>
+        <member name="T:ves2xml.ModelClass">
+            <summary>
+            Класс, описывающий результат интерпретации
+            </summary>
+        </member>
+        <member name="M:ves2xml.ModelClass.#ctor">
+            <summary>
+            Конструктор
+            </summary>
+        </member>
+        <member name="F:ves2xml.ModelClass.nLayers">
+            <summary>
+            Кол-во слоев в модели 
+            </summary>
+        </member>
+        <member name="F:ves2xml.ModelClass.Ro">
+            <summary>
+            Массив сопротивлений слоев Омм
+            </summary>
+        </member>
+        <member name="F:ves2xml.ModelClass.H">
+            <summary>
+            Массив мощностей слоев м
+            </summary>
+        </member>
+    </members>
+</doc>

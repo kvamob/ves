@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<area name="Электромедь Контрольный пример">
+  <areadescr />
+  <generated app="ves2xml.exe" ver="1.0.4.1" src="EVEZ.VES" culture="en-US" date="12/24/2002 10:59:11 AM" />
+  <profil name="Тестовый 1" type="profil">
+    <profildescr />
+    <curves>
+      <curve name="Кривая 1" x="0" y="0" z="0" rms="5.450165" layers="3">
+        <samples>
+          <sample ab2="1" ro="186" rt="0" />
+          <sample ab2="1.5" ro="143" rt="0" />
+          <sample ab2="2.2" ro="99" rt="0" />
+          <sample ab2="3" ro="73" rt="0" />
+          <sample ab2="5" ro="30" rt="0" />
+          <sample ab2="7" ro="19" rt="0" />
+          <sample ab2="9" ro="18" rt="0" />
+          <sample ab2="15" ro="20" rt="0" />
+          <sample ab2="20" ro="25" rt="0" />
+          <sample ab2="25" ro="28" rt="0" />
+          <sample ab2="40" ro="41" rt="0" />
+        </samples>
+        <layers>
+          <layer id="0" h="1" r="100" />
+          <layer id="1" h="20" r="10" />
+          <layer id="2" h="INFINITY" r="1000" />
+        </layers>
+        <image></image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="Кривая 1 - контроль" x="0" y="0" z="0" rms="5.450165" layers="3">
+        <samples>
+          <sample ab2="1" ro="186" rt="167.9808" />
+          <sample ab2="1.5" ro="143" rt="146.4872" />
+          <sample ab2="2.2" ro="99" rt="109.1235" />
+          <sample ab2="3" ro="73" rt="72.39066" />
+          <sample ab2="5" ro="30" rt="28.82645" />
+          <sample ab2="7" ro="19" rt="19.13136" />
+          <sample ab2="9" ro="18" rt="17.44675" />
+          <sample ab2="15" ro="20" rt="18.89715" />
+          <sample ab2="20" ro="25" rt="22.00617" />
+          <sample ab2="25" ro="28" rt="25.99093" />
+          <sample ab2="40" ro="41" rt="39.731" />
+        </samples>
+        <layers>
+          <layer id="0" h="1.281123" r="181.2916" />
+          <layer id="1" h="14.7626" r="15.36558" />
+          <layer id="2" h="INFINITY" r="1004.996" />
+        </layers>
+        <image>EVEZ.VES-0.tif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+    </curves>
+  </profil>
+</area>

@@ -1,0 +1,304 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "ves_rc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_VES DIALOG DISCARDABLE  10, 19, 218, 108
+//STYLE DS_3DLOOK | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+//    WS_SYSMENU | WS_THICKFRAME
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "Model Data"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "&Layers",-1,24,4,23,9
+    SCROLLBAR       IDC_SB_NLAYERS,4,4,18,9,SBS_LEFTALIGN
+    EDITTEXT        IDC_EB_NLAYERS,49,3,17,11,ES_RIGHT
+    LTEXT           "Curve:",-1,72,4,22,9
+    LTEXT           "N1",IDT_CURVE_ID,95,4,82,10
+    LTEXT           " 1",-1,2,28,9,9
+    LTEXT           " 2",-1,2,41,9,10
+    LTEXT           " 3",-1,2,54,9,10
+    LTEXT           " 4",-1,2,67,9,10
+    LTEXT           " 5",-1,2,80,9,10
+    LTEXT           " 6",-1,2,92,9,10
+    GROUPBOX        "Layer R&esistivity",-1,1,16,96,90,WS_GROUP
+    SCROLLBAR       IDC_SB_RESIS1,16,27,44,9,SBS_LEFTALIGN
+    SCROLLBAR       IDC_SB_RESIS2,16,40,44,7,SBS_LEFTALIGN
+    SCROLLBAR       IDC_SB_RESIS3,16,53,44,7,SBS_LEFTALIGN
+    SCROLLBAR       IDC_SB_RESIS4,16,66,44,7,SBS_LEFTALIGN
+    SCROLLBAR       IDC_SB_RESIS5,16,79,44,7,SBS_LEFTALIGN
+    SCROLLBAR       IDC_SB_RESIS6,16,92,44,7,SBS_LEFTALIGN
+    EDITTEXT        IDC_EB_RESIS1,62,27,32,11
+    EDITTEXT        IDC_EB_RESIS2,62,40,32,11
+    EDITTEXT        IDC_EB_RESIS3,62,53,32,11
+    EDITTEXT        IDC_EB_RESIS4,62,66,32,11
+    EDITTEXT        IDC_EB_RESIS5,62,79,32,11
+    EDITTEXT        IDC_EB_RESIS6,62,92,32,11
+    GROUPBOX        "Layer &Thickness",-1,98,16,84,77,WS_GROUP
+    SCROLLBAR       IDC_SB_THICK1,101,27,44,9,SBS_LEFTALIGN
+    SCROLLBAR       IDC_SB_THICK2,101,40,44,9,SBS_LEFTALIGN
+    SCROLLBAR       IDC_SB_THICK3,101,53,44,9,SBS_LEFTALIGN
+    SCROLLBAR       IDC_SB_THICK4,101,66,44,9,SBS_LEFTALIGN
+    SCROLLBAR       IDC_SB_THICK5,101,79,44,9,SBS_LEFTALIGN
+    EDITTEXT        IDC_EB_THICK1,147,27,32,11
+    EDITTEXT        IDC_EB_THICK2,147,40,32,11
+    EDITTEXT        IDC_EB_THICK3,147,53,32,11
+    EDITTEXT        IDC_EB_THICK4,147,66,32,11
+    EDITTEXT        IDC_EB_THICK5,147,79,32,11
+    DEFPUSHBUTTON   "&Run!",IDOK,184,1,33,13
+    PUSHBUTTON      "&Save",IDC_BU_SAVE,184,15,33,12
+    PUSHBUTTON      "Pr&int...",IDC_BU_PRINT,184,28,33,12
+    PUSHBUTTON      "&Next",IDC_BU_NEXT,184,41,33,12
+    PUSHBUTTON      "&Prev",IDC_BU_PREV,184,54,33,13
+    PUSHBUTTON      "&Find...",IDC_BU_FIND,184,68,33,13
+    PUSHBUTTON      "E&xit",IDCANCEL,184,82,33,12
+    CONTROL         "&Automatic Interpretation ",IDC_CB_INTERPR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,99,96,90,10
+END
+
+ABOUT_VES DIALOG DISCARDABLE  34, 36, 171, 78
+STYLE DS_3DLOOK | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "About VES for Windows"
+FONT 8, "Helv"
+BEGIN
+    CTEXT           "VES for Windows v1.0 Beta",-1,27,8,117,12
+    CTEXT           "©1995 V.Korotkov, Ekaterinburg",-1,32,42,108,12
+    PUSHBUTTON      "OK",IDOK,60,61,50,14
+    ICON            "ICON_VES",-1,3,4,18,20
+    CTEXT           "System for interpretation of Resistivity Sounding",-1,6,
+                    30,158,10
+END
+
+DLG_INFO DIALOG DISCARDABLE  15, 65481, 224, 167
+STYLE DS_3DLOOK | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "VES Information"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "File",-1,6,2,36,9,NOT WS_GROUP
+    LTEXT           "Area",-1,6,12,36,9,NOT WS_GROUP
+    LTEXT           "Profil",-1,6,22,36,9,NOT WS_GROUP
+    LTEXT           "Curve ID",-1,6,32,36,9,NOT WS_GROUP
+    LTEXT           "Samples",-1,6,42,36,9,NOT WS_GROUP
+    LTEXT           "file",IDT_FNAME,50,2,163,9,NOT WS_GROUP
+    LTEXT           "area",IDT_AREANAME,50,12,163,9,NOT WS_GROUP
+    LTEXT           "profil 1",IDT_PROFNAME,50,22,91,9,NOT WS_GROUP
+    LTEXT           "curve 3",IDT_CURVENAME,50,32,89,9,NOT WS_GROUP
+    LTEXT           "13",IDT_NSAMPLES,50,42,24,9,NOT WS_GROUP
+    LTEXT           " X = 1, Y = 1, Z = 1",IDT_COORD,124,41,93,10,NOT 
+                    WS_GROUP
+    LTEXT           " Layer #",-1,7,64,28,9,NOT WS_GROUP
+    LTEXT           "Resistivity",-1,43,64,35,9,NOT WS_GROUP
+    LTEXT           "Thickness",-1,81,64,36,9,NOT WS_GROUP
+    LTEXT           "",IDT_LAYER1,11,79,18,9,NOT WS_GROUP
+    LTEXT           "",IDT_LAYER2,11,88,18,9,NOT WS_GROUP
+    LTEXT           "",IDT_LAYER3,11,97,18,9,NOT WS_GROUP
+    LTEXT           "",IDT_LAYER4,11,106,18,9,NOT WS_GROUP
+    LTEXT           "",IDT_LAYER5,11,115,18,9,NOT WS_GROUP
+    LTEXT           "",IDT_LAYER6,11,124,18,9,NOT WS_GROUP
+    RTEXT           "",IDT_RESIS1,41,79,32,9,NOT WS_GROUP
+    RTEXT           "",IDT_RESIS2,41,88,32,9,NOT WS_GROUP
+    RTEXT           "",IDT_RESIS3,41,97,32,9,NOT WS_GROUP
+    RTEXT           "",IDT_RESIS4,41,106,32,9,NOT WS_GROUP
+    RTEXT           "",IDT_RESIS5,41,115,32,9,NOT WS_GROUP
+    RTEXT           "",IDT_RESIS6,41,124,32,9,NOT WS_GROUP
+    RTEXT           "",IDT_THICK1,81,79,24,9,NOT WS_GROUP
+    RTEXT           "",IDT_THICK2,81,88,24,9,NOT WS_GROUP
+    RTEXT           "",IDT_THICK3,81,97,24,9,NOT WS_GROUP
+    RTEXT           "",IDT_THICK4,81,106,24,9,NOT WS_GROUP
+    RTEXT           "",IDT_THICK5,81,115,24,9,NOT WS_GROUP
+    LTEXT           " RMS = 10%",IDT_RMS,6,137,82,9,NOT WS_GROUP
+    LTEXT           " Curve #",IDT_NCURVE,4,152,93,10,NOT WS_GROUP
+    LISTBOX         IDC_LB_FIELDDATA,124,75,93,68,WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    LTEXT           " AB/2   Resistivity",-1,125,66,87,8,NOT WS_GROUP
+    DEFPUSHBUTTON   "OK",IDOK,172,151,50,14
+    GROUPBOX        "Model Data",-1,2,55,117,94
+    GROUPBOX        "&Field Data",-1,121,55,101,94,WS_GROUP
+    GROUPBOX        "",-1,2,-3,220,56
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,4,74,113,1
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MENU_VES MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        IDM_NEW
+        MENUITEM "&Open...",                    IDM_OPEN
+        MENUITEM "&Save",                       IDM_SAVE, GRAYED
+        MENUITEM "Save &as...",                 IDM_SAVE_AS, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Curve"
+    BEGIN
+        MENUITEM "&Next\tPgDn",                 IDM_NEXT, GRAYED
+        MENUITEM "&Previous\tPgUp",             IDM_PREV, GRAYED
+        MENUITEM "&First\tHome",                IDM_FIRST, GRAYED
+        MENUITEM "&Last\tEnd",                  IDM_LAST, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Save...",                    IDM_SAVECURVE, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Info...",                    IDM_INFO, GRAYED
+    END
+    POPUP "&Interpretation"
+    BEGIN
+        MENUITEM "&Manual...",                  IDM_MANUAL, GRAYED
+        MENUITEM "&Automatic...",               IDM_AUTO, GRAYED
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "Compute &Type Curve...",      IDM_COMPUTE_TYPE_CURVE
+        MENUITEM "&Compile...",                 IDM_COMPILE, GRAYED
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Index\tF1",                  IDM_HELP
+        MENUITEM "Using &help",                 IDM_USING_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "&About VESWin...",            IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ICON_VES                ICON    DISCARDABLE     "ves.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+ACCEL_1 ACCELERATORS MOVEABLE PURE 
+BEGIN
+    VK_NEXT,        IDM_NEXT,               VIRTKEY 
+    VK_PRIOR,       IDM_PREV,               VIRTKEY 
+    VK_HOME,        IDM_FIRST,              VIRTKEY 
+    VK_END,         IDM_LAST,               VIRTKEY 
+    VK_F1,          IDM_HELP,               VIRTKEY 
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 1,0,0,10
+ PRODUCTVERSION 1,0,0,10
+ FILEFLAGSMASK 0x0L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "VK Soft\0"
+            VALUE "FileDescription", "Description from .def file here\0"
+            VALUE "FileVersion", "1.10\0"
+            VALUE "InternalName", "Ves for Windows32\0"
+            VALUE "LegalCopyright", "Copyright © V.Korotkov 1995-2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", ".exe file name here\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "\0"
+            VALUE "ProductVersion", "1, 0, 0, 10\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

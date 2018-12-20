@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<area name="Новый участок">
+  <areadescr />
+  <generated app="VesExplore.exe" ver="1.0.4.1" src="" date="09.01.2003 13:33:18" culture="en-US" />
+  <profil name="Новый профиль 0" type="profil">
+    <profildescr />
+    <curves>
+      <curve name="Новая кривая 0" date="" x="0" y="0" z="0" rms="100" layers="0">
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+        <image />
+        <samples>
+          <sample ab2="1" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="1.5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="2.2" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="3" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="7" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="9" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="15" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="20" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="25" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="40" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="65" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="100" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="150" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="220" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="380" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="500" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+        </samples>
+        <layers>
+          <layer id="1" h="1" r="1" />
+        </layers>
+      </curve>
+      <curve name="Новая кривая 1" date="" x="0" y="0" z="0" rms="100" layers="0">
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+        <image />
+        <samples>
+          <sample ab2="1" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="1.5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="2.2" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="3" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="7" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="9" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="15" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="20" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="25" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="40" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="65" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="100" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="150" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="220" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="380" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="500" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+        </samples>
+        <layers>
+          <layer id="1" h="1" r="1" />
+        </layers>
+      </curve>
+      <curve name="Новая кривая 2" date="" x="0" y="0" z="0" rms="100" layers="0">
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+        <image />
+        <samples>
+          <sample ab2="1" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="1.5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="2.2" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="3" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="7" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="9" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="15" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="20" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="25" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="40" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="65" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="100" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="150" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="220" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="380" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="500" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+        </samples>
+        <layers>
+          <layer id="1" h="1" r="1" />
+        </layers>
+      </curve>
+      <curve name="Новая кривая 3" date="" x="0" y="0" z="0" rms="100" layers="0">
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+        <image />
+        <samples>
+          <sample ab2="1" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="1.5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="2.2" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="3" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="7" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="9" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="15" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="20" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="25" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="40" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="65" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="100" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="150" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="220" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="380" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="500" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+        </samples>
+        <layers>
+          <layer id="1" h="1" r="1" />
+        </layers>
+      </curve>
+      <curve name="Новая кривая 4" date="" x="0" y="0" z="0" rms="100" layers="0">
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+        <image />
+        <samples>
+          <sample ab2="1" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="1.5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="2.2" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="3" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="7" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="9" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="15" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="20" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="25" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="40" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="65" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="100" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="150" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="220" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="380" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="500" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+        </samples>
+        <layers>
+          <layer id="1" h="1" r="1" />
+        </layers>
+      </curve>
+    </curves>
+  </profil>
+  <profil name="Новый профиль 1" type="profil">
+    <profildescr />
+    <curves>
+      <curve name="Новая кривая 0" date="" x="0" y="0" z="0" rms="100" layers="0">
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+        <image />
+        <samples>
+          <sample ab2="1" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="1.5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="2.2" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="3" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="7" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="9" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="15" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="20" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="25" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="40" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="65" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="100" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="150" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="220" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="380" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="500" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+        </samples>
+        <layers>
+          <layer id="1" h="1" r="1" />
+        </layers>
+      </curve>
+      <curve name="Новая кривая 1" date="" x="0" y="0" z="0" rms="100" layers="0">
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+        <image />
+        <samples>
+          <sample ab2="1" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="1.5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="2.2" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="3" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="7" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="9" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="15" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="20" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="25" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="40" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="65" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="100" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="150" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="220" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="380" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="500" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+        </samples>
+        <layers>
+          <layer id="1" h="1" r="1" />
+        </layers>
+      </curve>
+      <curve name="Новая кривая 2" date="" x="0" y="0" z="0" rms="100" layers="0">
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+        <image />
+        <samples>
+          <sample ab2="1" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="1.5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="2.2" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="3" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="7" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="9" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="15" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="20" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="25" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="40" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="65" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="100" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="150" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="220" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="380" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="500" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+        </samples>
+        <layers>
+          <layer id="1" h="1" r="1" />
+        </layers>
+      </curve>
+      <curve name="Новая кривая 3" date="" x="0" y="0" z="0" rms="100" layers="0">
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+        <image />
+        <samples>
+          <sample ab2="1" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="1.5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="2.2" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="3" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="7" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="9" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="15" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="20" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="25" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="40" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="65" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="100" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="150" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="220" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="380" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="500" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+        </samples>
+        <layers>
+          <layer id="1" h="1" r="1" />
+        </layers>
+      </curve>
+      <curve name="Новая кривая 4" date="" x="0" y="0" z="0" rms="100" layers="0">
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+        <image />
+        <samples>
+          <sample ab2="1" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="1.5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="2.2" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="3" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="5" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="7" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="9" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="15" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="20" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="25" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="40" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="65" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="100" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="150" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="220" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="380" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+          <sample ab2="500" mn="1" i="10" u="1" diap="100" ro="10" rt="1" note="" />
+        </samples>
+        <layers>
+          <layer id="1" h="1" r="1" />
+        </layers>
+      </curve>
+    </curves>
+  </profil>
+</area>

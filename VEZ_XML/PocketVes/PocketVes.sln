@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "PocketVes", "PocketVes.csdproj", "{524C7413-C97F-4350-A895-C07885D9A9A0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{524C7413-C97F-4350-A895-C07885D9A9A0}.Debug.ActiveCfg = Debug|Pocket PC
+		{524C7413-C97F-4350-A895-C07885D9A9A0}.Debug.Build.0 = Debug|Pocket PC
+		{524C7413-C97F-4350-A895-C07885D9A9A0}.Debug.Deploy.0 = Debug|Pocket PC
+		{524C7413-C97F-4350-A895-C07885D9A9A0}.Release.ActiveCfg = Release|Pocket PC
+		{524C7413-C97F-4350-A895-C07885D9A9A0}.Release.Build.0 = Release|Pocket PC
+		{524C7413-C97F-4350-A895-C07885D9A9A0}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

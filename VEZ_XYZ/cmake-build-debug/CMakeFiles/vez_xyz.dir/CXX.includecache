@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Git-REPOS/ves/VEZ_XYZ/VEZ_XYZ.C
+stdio.h
+-
+string.h
+-
+conio.h
+-
+stdlib.h
+-
+math.h
+-
+dos.h
+-
+vez_xyz.h
+D:/Git-REPOS/ves/VEZ_XYZ/vez_xyz.h
+
+D:/Git-REPOS/ves/VEZ_XYZ/vez_xyz.h
+

@@ -1,0 +1,23 @@
+NAME		VES
+
+DESCRIPTION	'VES Interpretation'
+
+EXETYPE 	WINDOWS
+
+STUB		'WINSTUB.EXE'
+
+CODE		PRELOAD MOVEABLE
+DATA		PRELOAD MOVEABLE MULTIPLE
+
+HEAPSIZE	40000
+STACKSIZE	15360
+
+PROTMODE
+
+EXPORTS
+    FrameWndProc        @1
+    AboutDlg            @2
+    VesInterprDlg       @3
+    ProgressWndProc     @4
+    InfoDlg             @5
+    VesTypeCurveDlg     @6

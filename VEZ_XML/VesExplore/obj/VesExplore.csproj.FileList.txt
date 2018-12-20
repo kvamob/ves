@@ -1,0 +1,15 @@
+obj\Debug\VesExplore.exe
+obj\Debug\VesExplore.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VesExplore.AboutForm.resources
+obj\Debug\VesExplore.AddCurveForm.resources
+obj\Debug\VesExplore.AddProfilForm.resources
+obj\Debug\VesExplore.InterprForm.resources
+obj\Debug\VesExplore.MainForm.resources
+obj\Debug\VesExplore.NewFileForm.resources
+obj\Debug\VesExplore.SettingsForm.resources
+obj\Debug\VesExplore.csproj.GenerateResource.Cache
+bin\Debug\VesExplore.exe
+bin\Debug\VesExplore.pdb
+bin\Debug\CommandManager.dll
+bin\Debug\CommandManager.pdb

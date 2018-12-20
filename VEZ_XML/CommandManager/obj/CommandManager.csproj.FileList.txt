@@ -1,0 +1,7 @@
+bin\Debug\CommandManager.dll
+bin\Debug\CommandManager.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CommandManagement.CommandManager.resources
+obj\Debug\CommandManager.csproj.GenerateResource.Cache
+obj\Debug\CommandManager.dll
+obj\Debug\CommandManager.pdb

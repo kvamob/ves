@@ -1,0 +1,12 @@
+Чтобы присвоить файлам .ves значки, в registry нужно создать разделы:
+(см. test.reg)
+
+HKEY_CLASSES_ROOT
+	.ves	[По умолчанию]=VES4Win       // VES4Win - имя раздела
+
+HKEY_CLASSES_ROOT
+	VES4Win	[По умолчанию]=VES for Windows
+	DefaultIcon [По умолчанию]=C:\USER\VEZ\VES_BCB\Ves4Win.exe,0
+	shell	
+	  open
+	     command [По умолчанию]=C:\USER\VEZ\VES_BCB\Ves4Win.exe "%1"

@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VEZ_WIN32 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINNT\TEMP\RSP266.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/VEZ_WIN32.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\USER\VEZ\VEZ_WIN32\VES_DLG.C"
+]
+Creating command line "cl.exe @C:\WINNT\TEMP\RSP266.tmp" 
+Creating temporary file "C:\WINNT\TEMP\RSP267.tmp" with contents
+[
+gdi32.lib comdlg32.lib user32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/VEZ_WIN32.pdb" /debug /machine:I386 /out:"Debug/VEZ_WIN32.exe" /pdbtype:sept 
+.\Debug\VES.OBJ
+.\Debug\VES_DLG.OBJ
+.\Debug\VES_GR.OBJ
+.\Debug\VES_IO.OBJ
+.\Debug\VES_SOLV.OBJ
+.\Debug\ves32.res
+]
+Creating command line "link.exe @C:\WINNT\TEMP\RSP267.tmp"
+<h3>Output Window</h3>
+Compiling...
+VES_DLG.C
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(56) : warning C4047: 'function' : 'unsigned int ' differs in levels of indirection from 'void *'
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(56) : warning C4024: 'SendMessageA' : different types for formal and actual parameter 3
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(131) : warning C4129: '%' : unrecognized character escape sequence
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(150) : warning C4129: '#' : unrecognized character escape sequence
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(99) : warning C4101: 'hwnd' : unreferenced local variable
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(215) : warning C4047: '=' : 'struct HWND__ *' differs in levels of indirection from 'long '
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(230) : warning C4047: 'function' : 'int ' differs in levels of indirection from 'struct HWND__ *'
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(230) : warning C4024: '_IsHandler' : different types for formal and actual parameter 3
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(239) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(241) : warning C4305: '=' : truncation from 'const double ' to 'float '
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(246) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(253) : warning C4047: 'function' : 'int ' differs in levels of indirection from 'struct HWND__ *'
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(253) : warning C4024: '_IsHandler' : different types for formal and actual parameter 3
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(262) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(264) : warning C4305: '=' : truncation from 'const double ' to 'float '
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(269) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(332) : warning C4305: '=' : truncation from 'const double ' to 'float '
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(338) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(355) : warning C4305: '=' : truncation from 'const double ' to 'float '
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(361) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(409) : warning C4305: 'function' : truncation from 'const double ' to 'float '
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(180) : warning C4101: 'hwnd' : unreferenced local variable
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(185) : warning C4101: 'step' : unreferenced local variable
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(496) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(496) : warning C4244: 'function' : conversion from 'double ' to 'int ', possible loss of data
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(438) : warning C4101: 'hwnd' : unreferenced local variable
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(439) : warning C4101: 'temp' : unreferenced local variable
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(517) : warning C4047: '==' : 'void *' differs in levels of indirection from 'int '
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(551) : warning C4101: 'hwnd' : unreferenced local variable
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(496) : warning C4761: integral size mismatch in argument; conversion supplied
+C:\USER\VEZ\VEZ_WIN32\VES_DLG.C(496) : warning C4761: integral size mismatch in argument; conversion supplied
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/VEZ_WIN32.bsc"  .\Debug\VES.SBR .\Debug\VES_DLG.SBR .\Debug\VES_GR.SBR .\Debug\VES_IO.SBR .\Debug\VES_SOLV.SBR"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+VEZ_WIN32.exe - 0 error(s), 31 warning(s)
+</pre>
+</body>
+</html>

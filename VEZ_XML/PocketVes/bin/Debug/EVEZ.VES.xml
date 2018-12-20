@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<area name="Электромедь">
+  <areadescr />
+  <generated app="ves2xml.exe" src="EVEZ.VES" date="26.11.2002 16:39:02" />
+  <profil name="2" type="profil">
+    <profildescr />
+    <curves>
+      <curve name="ПР2 ПК1" x="0" y="0" z="0" rms="4.667038" layers="3">
+        <samples>
+          <sample ab2="1" ro="186" rt="169.4642" />
+          <sample ab2="1.5" ro="143" rt="147.9866" />
+          <sample ab2="2.2" ro="99" rt="110.4196" />
+          <sample ab2="3" ro="73" rt="73.21263" />
+          <sample ab2="5" ro="30" rt="28.70381" />
+          <sample ab2="7" ro="19" rt="18.78178" />
+          <sample ab2="9" ro="18" rt="17.16558" />
+          <sample ab2="15" ro="20" rt="19.16113" />
+          <sample ab2="20" ro="25" rt="22.75137" />
+          <sample ab2="25" ro="28" rt="27.09363" />
+          <sample ab2="40" ro="41" rt="41.04105" />
+        </samples>
+        <layers>
+          <layer id="0" h="1.291113" r="182.7028" />
+          <layer id="1" h="13.0698" r="14.81192" />
+          <layer id="2" h="INFINITY" r="418.2615" />
+        </layers>
+        <image>EVEZ.VES-0.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК2" x="25" y="0" z="0" rms="6.165332" layers="4">
+        <samples>
+          <sample ab2="1" ro="154" rt="169.4726" />
+          <sample ab2="1.5" ro="159" rt="153.9694" />
+          <sample ab2="2.2" ro="146" rt="124.7541" />
+          <sample ab2="3" ro="94" rt="92.82394" />
+          <sample ab2="5" ro="47" rt="48.18497" />
+          <sample ab2="7" ro="39" rt="35.51656" />
+          <sample ab2="9" ro="33" rt="32.65396" />
+          <sample ab2="15" ro="30.45511" rt="32.37325" />
+          <sample ab2="20" ro="32" rt="32.54746" />
+          <sample ab2="25" ro="37" rt="32.58338" />
+          <sample ab2="40" ro="34" rt="32.44054" />
+        </samples>
+        <layers>
+          <layer id="0" h="1.407659" r="178.511" />
+          <layer id="1" h="4.729666" r="27.08" />
+          <layer id="2" h="0.9175791" r="59.69082" />
+          <layer id="3" h="INFINITY" r="32.18253" />
+        </layers>
+        <image>EVEZ.VES-1.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК3" x="50" y="0" z="0" rms="11.33615" layers="3">
+        <samples>
+          <sample ab2="1" ro="89" rt="80.26529" />
+          <sample ab2="1.5" ro="80" rt="70.09138" />
+          <sample ab2="2.2" ro="47" rt="53.40038" />
+          <sample ab2="3" ro="35" rt="37.96764" />
+          <sample ab2="5" ro="22" rt="20.3704" />
+          <sample ab2="7" ro="20" rt="15.68187" />
+          <sample ab2="9" ro="13" rt="13.64042" />
+          <sample ab2="15" ro="9" rt="8.94236" />
+          <sample ab2="20" ro="7" rt="5.73353" />
+          <sample ab2="25" ro="4" rt="3.502251" />
+          <sample ab2="40" ro="1" rt="0.9067377" />
+        </samples>
+        <layers>
+          <layer id="0" h="1.185957" r="86.86162" />
+          <layer id="1" h="8.728427" r="14.8941" />
+          <layer id="2" h="INFINITY" r="0.3990041" />
+        </layers>
+        <image>EVEZ.VES-2.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК4" x="72" y="0" z="0" rms="13.49485" layers="2">
+        <samples>
+          <sample ab2="1" ro="89" rt="62.15633" />
+          <sample ab2="1.5" ro="50" rt="54.18849" />
+          <sample ab2="2.2" ro="36" rt="40.6628" />
+          <sample ab2="3" ro="30" rt="27.713" />
+          <sample ab2="5" ro="11" rt="12.72084" />
+          <sample ab2="7" ro="11" rt="9.3065" />
+          <sample ab2="9" ro="10" rt="8.522712" />
+          <sample ab2="15" ro="7" rt="8.079739" />
+          <sample ab2="20" ro="10" rt="8.002275" />
+          <sample ab2="25" ro="8" rt="7.975396" />
+          <sample ab2="40" ro="8" rt="7.933603" />
+        </samples>
+        <layers>
+          <layer id="0" h="1.241191" r="67.18139" />
+          <layer id="1" h="INFINITY" r="7.925946" />
+        </layers>
+        <image>EVEZ.VES-3.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК5" x="97" y="0" z="0" rms="18.39566" layers="4">
+        <samples>
+          <sample ab2="1" ro="139" rt="123.6051" />
+          <sample ab2="1.5" ro="95" rt="102.743" />
+          <sample ab2="2.2" ro="68" rt="70.68673" />
+          <sample ab2="3" ro="47" rt="43.84135" />
+          <sample ab2="5" ro="19" rt="20.16551" />
+          <sample ab2="7" ro="16" rt="19.3988" />
+          <sample ab2="9" ro="19" rt="22.15716" />
+          <sample ab2="15" ro="38" rt="29.04255" />
+          <sample ab2="20" ro="60" rt="31.92437" />
+          <sample ab2="25" ro="42" rt="33.0578" />
+          <sample ab2="40" ro="26" rt="31.72567" />
+        </samples>
+        <layers>
+          <layer id="0" h="1.127548" r="137.7864" />
+          <layer id="1" h="3.104939" r="10.04815" />
+          <layer id="2" h="3.932842" r="129.0297" />
+          <layer id="3" h="INFINITY" r="21.70811" />
+        </layers>
+        <image>EVEZ.VES-4.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК6" x="130" y="0" z="0" rms="6.843113" layers="3">
+        <samples>
+          <sample ab2="1" ro="67" rt="68.11722" />
+          <sample ab2="1.5" ro="64" rt="62.22086" />
+          <sample ab2="2.2" ro="55" rt="54.20446" />
+          <sample ab2="3" ro="49" rt="47.67082" />
+          <sample ab2="5" ro="40" rt="38.94414" />
+          <sample ab2="7" ro="36" rt="33.29903" />
+          <sample ab2="9" ro="26" rt="28.25812" />
+          <sample ab2="15" ro="19" rt="17.44729" />
+          <sample ab2="20" ro="17" rt="13.18148" />
+          <sample ab2="25" ro="12" rt="11.24929" />
+          <sample ab2="40" ro="9" rt="9.703136" />
+        </samples>
+        <layers>
+          <layer id="0" h="0.9215428" r="72.6804" />
+          <layer id="1" h="4.724285" r="39.08474" />
+          <layer id="2" h="INFINITY" r="9.148458" />
+        </layers>
+        <image>EVEZ.VES-5.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК7" x="155" y="0" z="0" rms="3.42009" layers="4">
+        <samples>
+          <sample ab2="1" ro="76" rt="75.4922" />
+          <sample ab2="1.5" ro="64" rt="66.85751" />
+          <sample ab2="2.2" ro="57" rt="54.526" />
+          <sample ab2="3" ro="46" rt="44.70389" />
+          <sample ab2="5" ro="35" rt="35.8851" />
+          <sample ab2="7" ro="33" rt="35.39013" />
+          <sample ab2="9" ro="39" rt="36.26487" />
+          <sample ab2="15" ro="34" rt="35.54915" />
+          <sample ab2="20" ro="32" rt="31.21508" />
+          <sample ab2="25" ro="26" rt="26.00259" />
+          <sample ab2="40" ro="15" rt="14.76404" />
+        </samples>
+        <layers>
+          <layer id="0" h="1.013476" r="81.74947" />
+          <layer id="1" h="4.38987" r="29.06783" />
+          <layer id="2" h="2.87289" r="122.9588" />
+          <layer id="3" h="INFINITY" r="7.210429" />
+        </layers>
+        <image>EVEZ.VES-6.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК8" x="180" y="0" z="0" rms="12.74005" layers="4">
+        <samples>
+          <sample ab2="1" ro="67" rt="79.21952" />
+          <sample ab2="1.5" ro="84" rt="69.68522" />
+          <sample ab2="2.2" ro="63" rt="55.82909" />
+          <sample ab2="3" ro="43" rt="44.5632" />
+          <sample ab2="5" ro="32" rt="33.79317" />
+          <sample ab2="7" ro="35" rt="32.16123" />
+          <sample ab2="9" ro="34" rt="32.02942" />
+          <sample ab2="15" ro="26" rt="28.91514" />
+          <sample ab2="20" ro="21" rt="23.42683" />
+          <sample ab2="25" ro="20" rt="17.71237" />
+          <sample ab2="40" ro="10" rt="6.977141" />
+        </samples>
+        <layers>
+          <layer id="0" h="1.032585" r="86.02992" />
+          <layer id="1" h="4.620881" r="27.48871" />
+          <layer id="2" h="2.775556" r="102.1503" />
+          <layer id="3" h="INFINITY" r="1.858748" />
+        </layers>
+        <image>EVEZ.VES-7.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК9" x="205" y="0" z="0" rms="14.94332" layers="5">
+        <samples>
+          <sample ab2="1" ro="107" rt="126.2637" />
+          <sample ab2="1.5" ro="143" rt="151.4418" />
+          <sample ab2="2.2" ro="183" rt="164.5829" />
+          <sample ab2="3" ro="177" rt="158.0992" />
+          <sample ab2="5" ro="153" rt="108.0783" />
+          <sample ab2="7" ro="53.1484" rt="66.22575" />
+          <sample ab2="9" ro="34" rt="43.65464" />
+          <sample ab2="15" ro="24" rt="26.14227" />
+          <sample ab2="20" ro="26" rt="22.44701" />
+          <sample ab2="25" ro="22" rt="18.87414" />
+          <sample ab2="40" ro="11" rt="10.93939" />
+        </samples>
+        <layers>
+          <layer id="0" h="0.4594635" r="81.76243" />
+          <layer id="1" h="1.16352" r="350.542" />
+          <layer id="2" h="3.20948" r="13.17604" />
+          <layer id="3" h="1.049931" r="254.5766" />
+          <layer id="4" h="INFINITY" r="5.287638" />
+        </layers>
+        <image>EVEZ.VES-8.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК10" x="239" y="0" z="0" rms="10.1006" layers="4">
+        <samples>
+          <sample ab2="1" ro="98" rt="110.5281" />
+          <sample ab2="1.5" ro="127" rt="130.1808" />
+          <sample ab2="2.2" ro="137" rt="137.8062" />
+          <sample ab2="3" ro="167" rt="129.8226" />
+          <sample ab2="5" ro="69" rt="85.1616" />
+          <sample ab2="7" ro="58" rt="49.56813" />
+          <sample ab2="9" ro="34" rt="30.99344" />
+          <sample ab2="15" ro="24" rt="20.94123" />
+          <sample ab2="20" ro="26" rt="24.3136" />
+          <sample ab2="25" ro="27" rt="28.21456" />
+          <sample ab2="40" ro="38" rt="37.86008" />
+        </samples>
+        <layers>
+          <layer id="0" h="0.275616" r="52.31021" />
+          <layer id="1" h="1.539663" r="225.6183" />
+          <layer id="2" h="6.540235" r="10.63662" />
+          <layer id="3" h="INFINITY" r="77.62624" />
+        </layers>
+        <image>EVEZ.VES-9.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК11" x="264" y="0" z="0" rms="12.84499" layers="3">
+        <samples>
+          <sample ab2="1" ro="537" rt="564.6386" />
+          <sample ab2="1.5" ro="437" rt="490.6235" />
+          <sample ab2="2.2" ro="411" rt="361.1251" />
+          <sample ab2="3" ro="258.0862" rt="232.8676" />
+          <sample ab2="5" ro="98" rt="78.78531" />
+          <sample ab2="7" ro="30" rt="41.50711" />
+          <sample ab2="9" ro="26" rt="30.7733" />
+          <sample ab2="15" ro="19" rt="18.18367" />
+          <sample ab2="20" ro="16" rt="13.7595" />
+          <sample ab2="25" ro="13" rt="11.87089" />
+          <sample ab2="40" ro="10" rt="10.22836" />
+        </samples>
+        <layers>
+          <layer id="0" h="1.293038" r="610.2017" />
+          <layer id="1" h="5.084393" r="37.96971" />
+          <layer id="2" h="INFINITY" r="9.769337" />
+        </layers>
+        <image>EVEZ.VES-10.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК12" x="289" y="0" z="0" rms="14.66569" layers="2">
+        <samples>
+          <sample ab2="1" ro="89" rt="120.1196" />
+          <sample ab2="1.5" ro="119" rt="116.2088" />
+          <sample ab2="2.2" ro="119" rt="106.8101" />
+          <sample ab2="3" ro="115" rt="92.42152" />
+          <sample ab2="5" ro="74" rt="57.22555" />
+          <sample ab2="7" ro="29" rt="36.37495" />
+          <sample ab2="9" ro="22" rt="26.70993" />
+          <sample ab2="15" ro="20" rt="19.8893" />
+          <sample ab2="20" ro="21" rt="19.07565" />
+          <sample ab2="25" ro="20" rt="18.76871" />
+          <sample ab2="40" ro="21" rt="18.50294" />
+        </samples>
+        <layers>
+          <layer id="0" h="2.160857" r="122.0203" />
+          <layer id="1" h="INFINITY" r="18.36234" />
+        </layers>
+        <image>EVEZ.VES-11.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК13" x="314" y="0" z="0" rms="17.48842" layers="2">
+        <samples>
+          <sample ab2="1" ro="98" rt="108.3632" />
+          <sample ab2="1.5" ro="119" rt="106.5092" />
+          <sample ab2="2.2" ro="110" rt="101.6293" />
+          <sample ab2="3" ro="110" rt="93.32054" />
+          <sample ab2="5" ro="69" rt="67.79853" />
+          <sample ab2="7" ro="36" rt="47.41667" />
+          <sample ab2="9" ro="29" rt="35.19633" />
+          <sample ab2="15" ro="23" rt="23.40451" />
+          <sample ab2="20" ro="20" rt="21.66388" />
+          <sample ab2="25" ro="19" rt="21.09432" />
+          <sample ab2="40" ro="9" rt="20.58633" />
+        </samples>
+        <layers>
+          <layer id="0" h="2.671939" r="109.2324" />
+          <layer id="1" h="INFINITY" r="20.3363" />
+        </layers>
+        <image>EVEZ.VES-12.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК14" x="364" y="0" z="0" rms="9.735676" layers="3">
+        <samples>
+          <sample ab2="1" ro="94" rt="90.02868" />
+          <sample ab2="1.5" ro="72" rt="62.38595" />
+          <sample ab2="2.2" ro="41" rt="42.50034" />
+          <sample ab2="3" ro="30" rt="34.34874" />
+          <sample ab2="5" ro="30" rt="30.17442" />
+          <sample ab2="7" ro="25" rt="29.26165" />
+          <sample ab2="9" ro="26" rt="28.68682" />
+          <sample ab2="15" ro="28" rt="26.66071" />
+          <sample ab2="20" ro="25" rt="24.26089" />
+          <sample ab2="25" ro="25" rt="21.46898" />
+          <sample ab2="40" ro="11" rt="13.73943" />
+        </samples>
+        <layers>
+          <layer id="0" h="0.5862386" r="129.895" />
+          <layer id="1" h="17.24908" r="28.97293" />
+          <layer id="2" h="INFINITY" r="4.346788" />
+        </layers>
+        <image>EVEZ.VES-13.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК15" x="389" y="0" z="0" rms="3.693455" layers="3">
+        <samples>
+          <sample ab2="1" ro="107" rt="101.8288" />
+          <sample ab2="1.5" ro="64" rt="64.34892" />
+          <sample ab2="2.2" ro="38" rt="38.35934" />
+          <sample ab2="3" ro="28" rt="28.49511" />
+          <sample ab2="5" ro="24" rt="24.2347" />
+          <sample ab2="7" ro="23" rt="23.45348" />
+          <sample ab2="9" ro="22" rt="22.98708" />
+          <sample ab2="15" ro="21" rt="21.3727" />
+          <sample ab2="20" ro="21" rt="19.41808" />
+          <sample ab2="25" ro="19" rt="17.11311" />
+          <sample ab2="40" ro="10" rt="10.52199" />
+        </samples>
+        <layers>
+          <layer id="0" h="0.5881859" r="156.6814" />
+          <layer id="1" h="18.00963" r="23.21319" />
+          <layer id="2" h="INFINITY" r="2.32551" />
+        </layers>
+        <image>EVEZ.VES-14.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="ПР2 ПК16" x="414" y="0" z="0" rms="6.636234" layers="3">
+        <samples>
+          <sample ab2="1" ro="89" rt="91.21142" />
+          <sample ab2="1.5" ro="64" rt="58.24847" />
+          <sample ab2="2.2" ro="33" rt="36.47435" />
+          <sample ab2="3" ro="30" rt="28.49332" />
+          <sample ab2="5" ro="24" rt="25.31866" />
+          <sample ab2="7" ro="28" rt="25.36931" />
+          <sample ab2="9" ro="27" rt="26.15276" />
+          <sample ab2="15" ro="29" rt="30.76094" />
+          <sample ab2="20" ro="32" rt="35.89095" />
+          <sample ab2="25" ro="43" rt="41.26113" />
+          <sample ab2="40" ro="59" rt="55.50505" />
+        </samples>
+        <layers>
+          <layer id="0" h="0.5653045" r="142.5802" />
+          <layer id="1" h="10.86521" r="23.9137" />
+          <layer id="2" h="INFINITY" r="122.9263" />
+        </layers>
+        <image>EVEZ.VES-15.gif</image>
+        <curvedescr />
+        <operator />
+        <calculator />
+        <weather />
+        <device>АНЧ-3</device>
+      </curve>
+    </curves>
+  </profil>
+</area>

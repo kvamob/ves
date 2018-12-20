@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<area name="Участок [Новый]">
+  <areadescr>
+  </areadescr>
+  <generated app="VesExplore.exe" ver="1.0.6.2" src="" date="27.01.2003 13:37:48" culture="en-US" />
+  <profil name="Профиль ВЭЗ" type="profil">
+    <profildescr>
+    </profildescr>
+    <curves>
+      <curve name="ВЭЗ" date="27.01.2003" x="0" y="0" z="0" rms="100" layers="0">
+        <curvedescr>
+        </curvedescr>
+        <operator>Иванов</operator>
+        <calculator>Петров</calculator>
+        <weather>
+        </weather>
+        <device>АНЧ-3</device>
+        <image />
+        <samples>
+          <sample ab2="1" mn2="0.5" i="10" u="50" diap="100" ro="11.78096" rt="100" note="" />
+          <sample ab2="1.5" mn2="0.5" i="10" u="50" diap="100" ro="31.4159" rt="100" note="" />
+          <sample ab2="2.2" mn2="0.5" i="10" u="50" diap="100" ro="72.09949" rt="100" note="" />
+          <sample ab2="3" mn2="0.5" i="10" u="50" diap="100" ro="137.4446" rt="100" note="" />
+          <sample ab2="5" mn2="0.5" i="10" u="50" diap="100" ro="388.7718" rt="100" note="" />
+          <sample ab2="7" mn2="0.5" i="10" u="50" diap="100" ro="765.7626" rt="100" note="" />
+          <sample ab2="9" mn2="0.5" i="10" u="50" diap="100" ro="1268.417" rt="100" note="" />
+          <sample ab2="15" mn2="0.5" i="10" u="50" diap="100" ro="3530.362" rt="100" note="" />
+          <sample ab2="20" mn2="0.5" i="10" u="50" diap="100" ro="6279.253" rt="100" note="" />
+          <sample ab2="25" mn2="0.5" i="10" u="50" diap="100" ro="9813.542" rt="100" note="" />
+          <sample ab2="40" mn2="0.5" i="10" u="50" diap="100" ro="25128.79" rt="100" note="" />
+          <sample ab2="65" mn2="0.5" i="10" u="50" diap="100" ro="66362.16" rt="100" note="" />
+          <sample ab2="100" mn2="0.5" i="10" u="50" diap="100" ro="157075.6" rt="100" note="" />
+        </samples>
+      </curve>
+      <curve name="ВЭЗ" date="27.01.2003" x="0" y="0" z="0" rms="100" layers="0">
+        <curvedescr>
+        </curvedescr>
+        <operator>Иванов</operator>
+        <calculator>Петров</calculator>
+        <weather>
+        </weather>
+        <device>АНЧ-3</device>
+        <image />
+        <samples>
+          <sample ab2="1" mn2="0.5" i="10" u="50" diap="100" ro="11.78096" rt="100" note="" />
+          <sample ab2="1.5" mn2="0.5" i="10" u="50" diap="100" ro="31.4159" rt="100" note="" />
+          <sample ab2="2.2" mn2="0.5" i="10" u="50" diap="100" ro="72.09949" rt="100" note="" />
+          <sample ab2="3" mn2="0.5" i="10" u="50" diap="100" ro="137.4446" rt="100" note="" />
+          <sample ab2="5" mn2="0.5" i="10" u="50" diap="100" ro="388.7718" rt="100" note="" />
+          <sample ab2="7" mn2="0.5" i="10" u="50" diap="100" ro="765.7626" rt="100" note="" />
+          <sample ab2="9" mn2="0.5" i="10" u="50" diap="100" ro="1268.417" rt="100" note="" />
+          <sample ab2="15" mn2="0.5" i="10" u="50" diap="100" ro="3530.362" rt="100" note="" />
+          <sample ab2="20" mn2="0.5" i="10" u="50" diap="100" ro="6279.253" rt="100" note="" />
+          <sample ab2="25" mn2="0.5" i="10" u="50" diap="100" ro="9813.542" rt="100" note="" />
+          <sample ab2="40" mn2="0.5" i="10" u="50" diap="100" ro="25128.79" rt="100" note="" />
+          <sample ab2="65" mn2="0.5" i="10" u="50" diap="100" ro="66362.16" rt="100" note="" />
+          <sample ab2="100" mn2="0.5" i="10" u="50" diap="100" ro="157075.6" rt="100" note="" />
+        </samples>
+      </curve>
+    </curves>
+  </profil>
+</area>

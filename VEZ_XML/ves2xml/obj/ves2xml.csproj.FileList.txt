@@ -1,0 +1,6 @@
+bin\Debug\ves2xml.exe
+bin\Debug\ves2xml.pdb
+bin\Debug\Ves2XmlDoc.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ves2xml.exe
+obj\Debug\ves2xml.pdb

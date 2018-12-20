@@ -1,0 +1,66 @@
+[FILES]
+ves2xml.html
+ves2xml.CurveClass.html
+ves2xml.CurveClassMembers.html
+ves2xml.CurveClassConstructor.html
+ves2xml.CurveClassFields.html
+ves2xml.CurveClass.AB2.html
+ves2xml.CurveClass.areaName.html
+ves2xml.CurveClass.curveName.html
+ves2xml.CurveClass.fRok.html
+ves2xml.CurveClass.hashCode.html
+ves2xml.CurveClass.id.html
+ves2xml.CurveClass.nSamples.html
+ves2xml.CurveClass.profName.html
+ves2xml.CurveClass.tRok.html
+ves2xml.CurveClassMethods.html
+ves2xml.CurveClass.Draw.html
+ves2xml.CurveClass.ExportToXml.html
+ves2xml.CurveClass.Load.html
+ves2xml.CurveClass.Load1.html
+ves2xml.CurveClass.Load2.html
+ves2xml.ModelClass.html
+ves2xml.ModelClassMembers.html
+ves2xml.ModelClassConstructor.html
+ves2xml.ModelClassFields.html
+ves2xml.ModelClass.H.html
+ves2xml.ModelClass.nLayers.html
+ves2xml.ModelClass.Ro.html
+ves2xml.TextVezFileParserClass.html
+ves2xml.TextVezFileParserClassMembers.html
+ves2xml.TextVezFileParserClassConstructor.html
+ves2xml.TextVezFileParserClassMethods.html
+ves2xml.TextVezFileParserClass.CountCurves.html
+ves2xml.TextVezFileParserClass.CountCurves1.html
+ves2xml.TextVezFileParserClass.CountCurves2.html
+ves2xml.TextVezFileParserClass.ParseParam.html
+ves2xml.VesFileHeaderClass.html
+ves2xml.VesFileHeaderClassMembers.html
+ves2xml.VesFileHeaderClassConstructor.html
+ves2xml.VesFileHeaderClassFields.html
+ves2xml.VesFileHeaderClass.areaName.html
+ves2xml.VesFileHeaderClass.nPoints.html
+ves2xml.VesFileHeaderClass.profName.html
+ves2xml.VesFileHeaderClassMethods.html
+ves2xml.VesFileHeaderClass.Load.html
+ves2xml.VesFileHeaderClass.Load1.html
+ves2xml.VesFileHeaderClass.Load2.html
+ves2xml.VesFileType.html
+
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=Documentation.chm
+Default Window=MsdnHelp
+Default topic=ves2xml.html
+Display compile progress=No
+Error log file=Documentation.log
+Full-text search=Yes
+Index file=Documentation.hhk
+Language=0x409 English (United States)
+Contents file=Documentation.hhc
+
+[WINDOWS]
+MsdnHelp="Documentation Help","Documentation.hhc","Documentation.hhk",,,,,,,0x62520,220,0x383e,[86,51,872,558],,,,,,,0
+
+[INFOTYPES]

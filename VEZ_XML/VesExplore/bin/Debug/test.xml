@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<area id="test001" name="Тестовый участок">
+	<areadescr>Для отладки программы</areadescr>
+	<profil id="test001pr0" name="Профиль ТЕСТ 1" type="profil">
+	<profildescr>Тестовый профиль 1</profildescr>
+		<curves>
+                 <curve name="ПР2 ПК1" x="0" y="0" z="0" rms="4.667038" layers="3">
+        	  <samples>
+		     <sample ab2="1" ro="186" rt="169.4642" />
+		     <sample ab2="1.5" ro="143" rt="147.9866" />
+                     <sample ab2="2.2" ro="99" rt="110.4196" />
+                     <sample ab2="3" ro="73" rt="73.21263" />
+                     <sample ab2="5" ro="30" rt="28.70381" />
+                     <sample ab2="7" ro="19" rt="18.78178" />
+                     <sample ab2="9" ro="18" rt="17.16558" />
+                     <sample ab2="15" ro="20" rt="19.16113" />
+                     <sample ab2="20" ro="25" rt="22.75137" />
+                     <sample ab2="25" ro="28" rt="27.09363" />
+                     <sample ab2="40" ro="41" rt="41.04105" />
+                  </samples>
+                  <layers>
+                     <layer id="0" h="1.291113" r="182.7028" />
+                     <layer id="1" h="13.0698" r="14.81192" />
+                     <layer id="2" h="INFINITY" r="418.2615" />
+                  </layers>
+	   	  <image />
+		  <curvedescr>Тестовая кривая</curvedescr>
+		  <operator>Иванов И.И.</operator>
+		  <calculator>Петров А.А.</calculator>
+		  <weather>Ясно</weather>
+		  <device>АНЧ-3</device>
+	       </curve>
+	    </curves>
+	</profil>
+</area>

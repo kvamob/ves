@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<area id="bel001" name="Белоярская АЭС 27.09.02">
+  <areadescr>Изыскания по договору на IV энергоблоке 2002 год</areadescr>
+  <profil name="-4" type="profil">
+    <profildescr></profildescr>
+      <curves>
+      <curve name="-5" x="0.0" y="0.0" z="0.0" layers="0">
+        <samples>
+          <sample ab2="5.0" mn2="0.5" ro="1203"/>
+          <sample ab2="7" mn2="0.5" ro="1273"/>
+          <sample ab2="9" mn2="0.5" ro="1273"/>
+          <sample ab2="15.0" mn2="0.5" ro="1292.0"/>
+          <sample ab2="20" mn2="0.5" ro="1387"/>
+          <sample ab2="25" mn2="0.5" ro="1645"/>
+          <sample ab2="40" mn2="0.5" ro="2094"/>
+          <sample ab2="65" mn2="0.5" ro="2629"/>
+          <sample ab2="100" mn2="0.5" ro="3074"/>
+          <sample ab2="150" mn2="0.5" ro="3750"/>
+          <sample ab2="220" mn2="0.5" ro="4511"/>
+          <sample ab2="380" mn2="0.5" ro="6256"/>
+        </samples>
+        <image>p-4#1.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="-4" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1136"/>
+          <sample ab2="7" mn2="0.5" ro="1136"/>
+          <sample ab2="9" mn2="0.5" ro="1169"/>
+          <sample ab2="15" mn2="0.5" ro="1220"/>
+          <sample ab2="20" mn2="0.5" ro="1387"/>
+          <sample ab2="25" mn2="0.5" ro="1554"/>
+          <sample ab2="40" mn2="0.5" ro="1978"/>
+          <sample ab2="65" mn2="0.5" ro="2743"/>
+          <sample ab2="100" mn2="0.5" ro="3253"/>
+          <sample ab2="150" mn2="0.5" ro="4084"/>
+          <sample ab2="220" mn2="0.5" ro="4913"/>
+          <sample ab2="380" mn2="0.5" ro="6622"/>
+        </samples>
+        <image>p-4#2.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="-3" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1153"/>
+          <sample ab2="7" mn2="0.5" ro="1220"/>
+          <sample ab2="9" mn2="0.5" ro="1105"/>
+          <sample ab2="15" mn2="0.5" ro="1120"/>
+          <sample ab2="20" mn2="0.5" ro="1292"/>
+          <sample ab2="25" mn2="0.5" ro="1576"/>
+          <sample ab2="40" mn2="0.5" ro="2007"/>
+          <sample ab2="65" mn2="0.5" ro="2904"/>
+          <sample ab2="100" mn2="0.5" ro="3395"/>
+          <sample ab2="150" mn2="0.5" ro="4262"/>
+          <sample ab2="220" mn2="0.5" ro="5127"/>
+          <sample ab2="380" mn2="0.5" ro="6813"/>
+        </samples>
+        <image>p-4#3.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="-2" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="972"/>
+          <sample ab2="7" mn2="0.5" ro="1014"/>
+          <sample ab2="9" mn2="0.5" ro="1044"/>
+          <sample ab2="15" mn2="0.5" ro="1120"/>
+          <sample ab2="20" mn2="0.5" ro="1238"/>
+          <sample ab2="25" mn2="0.5" ro="1447"/>
+          <sample ab2="40" mn2="0.5" ro="1843"/>
+          <sample ab2="65" mn2="0.5" ro="2629"/>
+          <sample ab2="100" mn2="0.5" ro="3208"/>
+          <sample ab2="150" mn2="0.5" ro="4027"/>
+          <sample ab2="220" mn2="0.5" ro="4913"/>
+          <sample ab2="380" mn2="0.5" ro="7009"/>
+        </samples>
+        <image>p-4#4.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="-1" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="893"/>
+          <sample ab2="7" mn2="0.5" ro="931"/>
+          <sample ab2="9" mn2="0.5" ro="945"/>
+          <sample ab2="15" mn2="0.5" ro="972"/>
+          <sample ab2="20" mn2="0.5" ro="1089"/>
+          <sample ab2="25" mn2="0.5" ro="1273"/>
+          <sample ab2="40" mn2="0.5" ro="1554"/>
+          <sample ab2="65" mn2="0.5" ro="1923"/>
+          <sample ab2="100" mn2="0.5" ro="2280"/>
+          <sample ab2="150" mn2="0.5" ro="2904"/>
+          <sample ab2="220" mn2="0.5" ro="3347"/>
+          <sample ab2="380" mn2="0.5" ro="3859"/>
+        </samples>
+        <image>p-4#5.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="0" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="893"/>
+          <sample ab2="7" mn2="0.5" ro="931"/>
+          <sample ab2="9" mn2="0.5" ro="945"/>
+          <sample ab2="15" mn2="0.5" ro="972"/>
+          <sample ab2="20" mn2="0.5" ro="1089"/>
+          <sample ab2="25" mn2="0.5" ro="1273"/>
+          <sample ab2="40" mn2="0.5" ro="1554"/>
+          <sample ab2="65" mn2="0.5" ro="1923"/>
+          <sample ab2="100" mn2="0.5" ro="2280"/>
+          <sample ab2="150" mn2="0.5" ro="2904"/>
+          <sample ab2="220" mn2="0.5" ro="3347"/>
+          <sample ab2="380" mn2="0.5" ro="3859"/>
+        </samples>
+        <image>p-4#6.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="1" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="820"/>
+          <sample ab2="7" mn2="0.5" ro="880"/>
+          <sample ab2="9" mn2="0.5" ro="1000"/>
+          <sample ab2="15" mn2="0.5" ro="1044"/>
+          <sample ab2="20" mn2="0.5" ro="1169"/>
+          <sample ab2="25" mn2="0.5" ro="1348"/>
+          <sample ab2="40" mn2="0.5" ro="1554"/>
+          <sample ab2="65" mn2="0.5" ro="1843"/>
+          <sample ab2="100" mn2="0.5" ro="2154"/>
+          <sample ab2="150" mn2="0.5" ro="2555"/>
+          <sample ab2="220" mn2="0.5" ro="2822"/>
+          <sample ab2="380" mn2="0.5" ro="3300"/>
+        </samples>
+        <image>p-4#7.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="2" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="797"/>
+          <sample ab2="7" mn2="0.5" ro="855"/>
+          <sample ab2="9" mn2="0.5" ro="945"/>
+          <sample ab2="15" mn2="0.5" ro="1044"/>
+          <sample ab2="20" mn2="0.5" ro="1136"/>
+          <sample ab2="25" mn2="0.5" ro="1203"/>
+          <sample ab2="40" mn2="0.5" ro="1427"/>
+          <sample ab2="65" mn2="0.5" ro="1766"/>
+          <sample ab2="100" mn2="0.5" ro="2035"/>
+          <sample ab2="150" mn2="0.5" ro="2346"/>
+          <sample ab2="220" mn2="0.5" ro="2945"/>
+          <sample ab2="380" mn2="0.5" ro="2783"/>
+        </samples>
+        <image>p-4#8.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="3" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="753"/>
+          <sample ab2="7" mn2="0.5" ro="831"/>
+          <sample ab2="9" mn2="0.5" ro="905"/>
+          <sample ab2="15" mn2="0.5" ro="893"/>
+          <sample ab2="20" mn2="0.5" ro="1014"/>
+          <sample ab2="25" mn2="0.5" ro="1153"/>
+          <sample ab2="40" mn2="0.5" ro="1489"/>
+          <sample ab2="65" mn2="0.5" ro="1621"/>
+          <sample ab2="100" mn2="0.5" ro="1791"/>
+          <sample ab2="150" mn2="0.5" ro="2154"/>
+          <sample ab2="220" mn2="0.5" ro="2519"/>
+          <sample ab2="380" mn2="0.5" ro="2945"/>
+        </samples>
+        <image>p-4#9.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="4" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="820"/>
+          <sample ab2="7" mn2="0.5" ro="763"/>
+          <sample ab2="9" mn2="0.5" ro="820"/>
+          <sample ab2="15" mn2="0.5" ro="945"/>
+          <sample ab2="20" mn2="0.5" ro="1029"/>
+          <sample ab2="25" mn2="0.5" ro="1186"/>
+          <sample ab2="40" mn2="0.5" ro="1387"/>
+          <sample ab2="65" mn2="0.5" ro="1532"/>
+          <sample ab2="100" mn2="0.5" ro="1950"/>
+          <sample ab2="150" mn2="0.5" ro="2007"/>
+          <sample ab2="220" mn2="0.5" ro="2248"/>
+          <sample ab2="380" mn2="0.5" ro="2555"/>
+        </samples>
+        <image>p-4#10.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="5" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="831"/>
+          <sample ab2="7" mn2="0.5" ro="763"/>
+          <sample ab2="9" mn2="0.5" ro="763"/>
+          <sample ab2="15" mn2="0.5" ro="880"/>
+          <sample ab2="20" mn2="0.5" ro="1044"/>
+          <sample ab2="25" mn2="0.5" ro="1105"/>
+          <sample ab2="40" mn2="0.5" ro="1105"/>
+          <sample ab2="65" mn2="0.5" ro="1489"/>
+          <sample ab2="100" mn2="0.5" ro="1896"/>
+          <sample ab2="150" mn2="0.5" ro="2380"/>
+          <sample ab2="220" mn2="0.5" ro="2555"/>
+          <sample ab2="380" mn2="0.5" ro="2346"/>
+        </samples>
+        <image>p-4#11.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+    </curves>
+  </profil>
+  <profil name="0" type="profil">
+    <profildescr></profildescr>
+      <curves>
+      <curve name="-5" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1387"/>
+          <sample ab2="7" mn2="0.5" ro="1387"/>
+          <sample ab2="9" mn2="0.5" ro="1310"/>
+          <sample ab2="15" mn2="0.5" ro="1387"/>
+          <sample ab2="20" mn2="0.5" ro="1554"/>
+          <sample ab2="25" mn2="0.5" ro="1766"/>
+          <sample ab2="40" mn2="0.5" ro="2185"/>
+          <sample ab2="65" mn2="0.5" ro="2822"/>
+          <sample ab2="100" mn2="0.5" ro="3347"/>
+          <sample ab2="150" mn2="0.5" ro="4143"/>
+          <sample ab2="220" mn2="0.5" ro="4844"/>
+          <sample ab2="380" mn2="0.5" ro="6436"/>
+        </samples>
+        <image>p0#1.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="-4" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1203"/>
+          <sample ab2="7" mn2="0.5" ro="1153"/>
+          <sample ab2="9" mn2="0.5" ro="1169"/>
+          <sample ab2="15" mn2="0.5" ro="1220"/>
+          <sample ab2="20" mn2="0.5" ro="1387"/>
+          <sample ab2="25" mn2="0.5" ro="1576"/>
+          <sample ab2="40" mn2="0.5" ro="2035"/>
+          <sample ab2="65" mn2="0.5" ro="2705"/>
+          <sample ab2="100" mn2="0.5" ro="3594"/>
+          <sample ab2="150" mn2="0.5" ro="4323"/>
+          <sample ab2="220" mn2="0.5" ro="5584"/>
+          <sample ab2="380" mn2="0.5" ro="8313"/>
+        </samples>
+        <image>p0#2.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="-3" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1136"/>
+          <sample ab2="7" mn2="0.5" ro="1238"/>
+          <sample ab2="9" mn2="0.5" ro="1238"/>
+          <sample ab2="15" mn2="0.5" ro="1329"/>
+          <sample ab2="20" mn2="0.5" ro="1468"/>
+          <sample ab2="25" mn2="0.5" ro="1645"/>
+          <sample ab2="40" mn2="0.5" ro="1896"/>
+          <sample ab2="65" mn2="0.5" ro="2519"/>
+          <sample ab2="100" mn2="0.5" ro="2988"/>
+          <sample ab2="150" mn2="0.5" ro="3697"/>
+          <sample ab2="220" mn2="0.5" ro="4511"/>
+          <sample ab2="380" mn2="0.5" ro="5910"/>
+        </samples>
+        <image>p0#3.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="-2" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1186"/>
+          <sample ab2="7" mn2="0.5" ro="1238"/>
+          <sample ab2="9" mn2="0.5" ro="1169"/>
+          <sample ab2="15" mn2="0.5" ro="1273"/>
+          <sample ab2="20" mn2="0.5" ro="1329"/>
+          <sample ab2="25" mn2="0.5" ro="1510"/>
+          <sample ab2="40" mn2="0.5" ro="1843"/>
+          <sample ab2="65" mn2="0.5" ro="2783"/>
+          <sample ab2="100" mn2="0.5" ro="3300"/>
+          <sample ab2="150" mn2="0.5" ro="4323"/>
+          <sample ab2="220" mn2="0.5" ro="5351"/>
+          <sample ab2="380" mn2="0.5" ro="7743"/>
+        </samples>
+        <image>p0#4.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="-1" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="986"/>
+          <sample ab2="7" mn2="0.5" ro="1029"/>
+          <sample ab2="9" mn2="0.5" ro="1058"/>
+          <sample ab2="15" mn2="0.5" ro="1120"/>
+          <sample ab2="20" mn2="0.5" ro="1348"/>
+          <sample ab2="25" mn2="0.5" ro="1532"/>
+          <sample ab2="40" mn2="0.5" ro="1896"/>
+          <sample ab2="65" mn2="0.5" ro="2629"/>
+          <sample ab2="100" mn2="0.5" ro="3074"/>
+          <sample ab2="150" mn2="0.5" ro="3804"/>
+          <sample ab2="220" mn2="0.5" ro="4708"/>
+          <sample ab2="380" mn2="0.5" ro="6717"/>
+        </samples>
+        <image>p0#5.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="0" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1060"/>
+          <sample ab2="7" mn2="0.5" ro="1236"/>
+          <sample ab2="9" mn2="0.5" ro="1127"/>
+          <sample ab2="15" mn2="0.5" ro="1168"/>
+          <sample ab2="20" mn2="0.5" ro="1361"/>
+          <sample ab2="25" mn2="0.5" ro="1594"/>
+          <sample ab2="40" mn2="0.5" ro="1953"/>
+          <sample ab2="65" mn2="0.5" ro="2704"/>
+          <sample ab2="100" mn2="0.5" ro="3265"/>
+          <sample ab2="150" mn2="0.5" ro="3957"/>
+          <sample ab2="220" mn2="0.5" ro="5017"/>
+          <sample ab2="380" mn2="0.5" ro="7258"/>
+        </samples>
+        <image>p0#6.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="1" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="918"/>
+          <sample ab2="7" mn2="0.5" ro="931"/>
+          <sample ab2="9" mn2="0.5" ro="972"/>
+          <sample ab2="15" mn2="0.5" ro="1044"/>
+          <sample ab2="20" mn2="0.5" ro="1238"/>
+          <sample ab2="25" mn2="0.5" ro="1447"/>
+          <sample ab2="40" mn2="0.5" ro="1716"/>
+          <sample ab2="65" mn2="0.5" ro="2217"/>
+          <sample ab2="100" mn2="0.5" ro="2666"/>
+          <sample ab2="150" mn2="0.5" ro="3300"/>
+          <sample ab2="220" mn2="0.5" ro="3914"/>
+          <sample ab2="380" mn2="0.5" ro="4448"/>
+        </samples>
+        <image>p0#7.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="2" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="880"/>
+          <sample ab2="7" mn2="0.5" ro="1014"/>
+          <sample ab2="9" mn2="0.5" ro="1044"/>
+          <sample ab2="15" mn2="0.5" ro="1074"/>
+          <sample ab2="20" mn2="0.5" ro="1186"/>
+          <sample ab2="25" mn2="0.5" ro="1348"/>
+          <sample ab2="40" mn2="0.5" ro="1598"/>
+          <sample ab2="65" mn2="0.5" ro="2035"/>
+          <sample ab2="100" mn2="0.5" ro="2414"/>
+          <sample ab2="150" mn2="0.5" ro="2988"/>
+          <sample ab2="220" mn2="0.5" ro="3395"/>
+          <sample ab2="380" mn2="0.5" ro="3300"/>
+        </samples>
+        <image>p0#8.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="3" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="797"/>
+          <sample ab2="7" mn2="0.5" ro="820"/>
+          <sample ab2="9" mn2="0.5" ro="868"/>
+          <sample ab2="15" mn2="0.5" ro="958"/>
+          <sample ab2="20" mn2="0.5" ro="1089"/>
+          <sample ab2="25" mn2="0.5" ro="1255"/>
+          <sample ab2="40" mn2="0.5" ro="1447"/>
+          <sample ab2="65" mn2="0.5" ro="1869"/>
+          <sample ab2="100" mn2="0.5" ro="2280"/>
+          <sample ab2="150" mn2="0.5" ro="2705"/>
+          <sample ab2="220" mn2="0.5" ro="3162"/>
+          <sample ab2="380" mn2="0.5" ro="3594"/>
+        </samples>
+        <image>p0#9.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="4" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="820"/>
+          <sample ab2="7" mn2="0.5" ro="785"/>
+          <sample ab2="9" mn2="0.5" ro="905"/>
+          <sample ab2="15" mn2="0.5" ro="1000"/>
+          <sample ab2="20" mn2="0.5" ro="1120"/>
+          <sample ab2="25" mn2="0.5" ro="1255"/>
+          <sample ab2="40" mn2="0.5" ro="1510"/>
+          <sample ab2="65" mn2="0.5" ro="1791"/>
+          <sample ab2="100" mn2="0.5" ro="2154"/>
+          <sample ab2="150" mn2="0.5" ro="2448"/>
+          <sample ab2="220" mn2="0.5" ro="2863"/>
+          <sample ab2="380" mn2="0.5" ro="2863"/>
+        </samples>
+        <image>p0#10.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="5" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="742"/>
+          <sample ab2="7" mn2="0.5" ro="893"/>
+          <sample ab2="9" mn2="0.5" ro="905"/>
+          <sample ab2="15" mn2="0.5" ro="1014"/>
+          <sample ab2="20" mn2="0.5" ro="1169"/>
+          <sample ab2="25" mn2="0.5" ro="1329"/>
+          <sample ab2="40" mn2="0.5" ro="1598"/>
+          <sample ab2="65" mn2="0.5" ro="1950"/>
+          <sample ab2="100" mn2="0.5" ro="2217"/>
+          <sample ab2="150" mn2="0.5" ro="2555"/>
+          <sample ab2="220" mn2="0.5" ro="2592"/>
+          <sample ab2="380" mn2="0.5" ro="3074"/>
+        </samples>
+        <image>p0#11.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+    </curves>
+  </profil>
+  <profil name="+4" type="profil">
+    <profildescr></profildescr>
+      <curves>
+      <curve name="-5" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1310"/>
+          <sample ab2="7" mn2="0.5" ro="1407"/>
+          <sample ab2="9" mn2="0.5" ro="1427"/>
+          <sample ab2="15" mn2="0.5" ro="1489"/>
+          <sample ab2="20" mn2="0.5" ro="1621"/>
+          <sample ab2="25" mn2="0.5" ro="1896"/>
+          <sample ab2="40" mn2="0.5" ro="2280"/>
+          <sample ab2="65" mn2="0.5" ro="2783"/>
+          <sample ab2="100" mn2="0.5" ro="3493"/>
+          <sample ab2="150" mn2="0.5" ro="4511"/>
+          <sample ab2="220" mn2="0.5" ro="5427"/>
+          <sample ab2="380" mn2="0.5" ro="7211"/>
+        </samples>
+        <image>p4#1.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="-4" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1447"/>
+          <sample ab2="7" mn2="0.5" ro="1489"/>
+          <sample ab2="9" mn2="0.5" ro="1576"/>
+          <sample ab2="15" mn2="0.5" ro="1621"/>
+          <sample ab2="20" mn2="0.5" ro="1766"/>
+          <sample ab2="25" mn2="0.5" ro="2007"/>
+          <sample ab2="40" mn2="0.5" ro="2217"/>
+          <sample ab2="65" mn2="0.5" ro="2666"/>
+          <sample ab2="100" mn2="0.5" ro="3395"/>
+          <sample ab2="150" mn2="0.5" ro="4262"/>
+          <sample ab2="220" mn2="0.5" ro="5127"/>
+          <sample ab2="380" mn2="0.5" ro="6717"/>
+        </samples>
+        <image>p4#2.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="-3" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1238"/>
+          <sample ab2="7" mn2="0.5" ro="1329"/>
+          <sample ab2="9" mn2="0.5" ro="1348"/>
+          <sample ab2="15" mn2="0.5" ro="1348"/>
+          <sample ab2="20" mn2="0.5" ro="1489"/>
+          <sample ab2="25" mn2="0.5" ro="1817"/>
+          <sample ab2="40" mn2="0.5" ro="2094"/>
+          <sample ab2="65" mn2="0.5" ro="2519"/>
+          <sample ab2="100" mn2="0.5" ro="3030"/>
+          <sample ab2="150" mn2="0.5" ro="3697"/>
+          <sample ab2="220" mn2="0.5" ro="4448"/>
+          <sample ab2="380" mn2="0.5" ro="5995"/>
+        </samples>
+        <image>p4#3.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="-2" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1120"/>
+          <sample ab2="7" mn2="0.5" ro="1044"/>
+          <sample ab2="9" mn2="0.5" ro="1203"/>
+          <sample ab2="15" mn2="0.5" ro="1310"/>
+          <sample ab2="20" mn2="0.5" ro="1427"/>
+          <sample ab2="25" mn2="0.5" ro="1645"/>
+          <sample ab2="40" mn2="0.5" ro="2124"/>
+          <sample ab2="65" mn2="0.5" ro="2666"/>
+          <sample ab2="100" mn2="0.5" ro="3118"/>
+          <sample ab2="150" mn2="0.5" ro="3914"/>
+          <sample ab2="220" mn2="0.5" ro="4775"/>
+          <sample ab2="380" mn2="0.5" ro="6436"/>
+        </samples>
+        <image>p4#4.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="-1" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="945"/>
+          <sample ab2="7" mn2="0.5" ro="1089"/>
+          <sample ab2="9" mn2="0.5" ro="1029"/>
+          <sample ab2="15" mn2="0.5" ro="1153"/>
+          <sample ab2="20" mn2="0.5" ro="1310"/>
+          <sample ab2="25" mn2="0.5" ro="1510"/>
+          <sample ab2="40" mn2="0.5" ro="1896"/>
+          <sample ab2="65" mn2="0.5" ro="2380"/>
+          <sample ab2="100" mn2="0.5" ro="2904"/>
+          <sample ab2="150" mn2="0.5" ro="3543"/>
+          <sample ab2="220" mn2="0.5" ro="4202"/>
+          <sample ab2="380" mn2="0.5" ro="5351"/>
+        </samples>
+        <image>p4#5.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="0" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="958"/>
+          <sample ab2="7" mn2="0.5" ro="1014"/>
+          <sample ab2="9" mn2="0.5" ro="1014"/>
+          <sample ab2="15" mn2="0.5" ro="1105"/>
+          <sample ab2="20" mn2="0.5" ro="1220"/>
+          <sample ab2="25" mn2="0.5" ro="1367"/>
+          <sample ab2="40" mn2="0.5" ro="1621"/>
+          <sample ab2="65" mn2="0.5" ro="2064"/>
+          <sample ab2="100" mn2="0.5" ro="2666"/>
+          <sample ab2="150" mn2="0.5" ro="3300"/>
+          <sample ab2="220" mn2="0.5" ro="4084"/>
+          <sample ab2="380" mn2="0.5" ro="4983"/>
+        </samples>
+        <image>p4#6.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="1" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1089"/>
+          <sample ab2="7" mn2="0.5" ro="1153"/>
+          <sample ab2="9" mn2="0.5" ro="1238"/>
+          <sample ab2="15" mn2="0.5" ro="1255"/>
+          <sample ab2="20" mn2="0.5" ro="1329"/>
+          <sample ab2="25" mn2="0.5" ro="1510"/>
+          <sample ab2="40" mn2="0.5" ro="1716"/>
+          <sample ab2="65" mn2="0.5" ro="2007"/>
+          <sample ab2="100" mn2="0.5" ro="2483"/>
+          <sample ab2="150" mn2="0.5" ro="3030"/>
+          <sample ab2="220" mn2="0.5" ro="3750"/>
+          <sample ab2="380" mn2="0.5" ro="4202"/>
+        </samples>
+        <image>p4#7.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="2" x="0" y="0" z="0" layers="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1169"/>
+          <sample ab2="7" mn2="0.5" ro="1089"/>
+          <sample ab2="9" mn2="0.5" ro="1105"/>
+          <sample ab2="15" mn2="0.5" ro="1186"/>
+          <sample ab2="20" mn2="0.5" ro="1292"/>
+          <sample ab2="25" mn2="0.5" ro="1427"/>
+          <sample ab2="40" mn2="0.5" ro="1576"/>
+          <sample ab2="65" mn2="0.5" ro="1923"/>
+          <sample ab2="100" mn2="0.5" ro="2313"/>
+          <sample ab2="150" mn2="0.5" ro="2783"/>
+          <sample ab2="220" mn2="0.5" ro="3253"/>
+          <sample ab2="380" mn2="0.5" ro="3347"/>
+        </samples>
+        <image>p4#8.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="3" x="0" y="0" z="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="1014"/>
+          <sample ab2="7" mn2="0.5" ro="1105"/>
+          <sample ab2="9" mn2="0.5" ro="1120"/>
+          <sample ab2="15" mn2="0.5" ro="1292"/>
+          <sample ab2="20" mn2="0.5" ro="1310"/>
+          <sample ab2="25" mn2="0.5" ro="1427"/>
+          <sample ab2="40" mn2="0.5" ro="1576"/>
+          <sample ab2="65" mn2="0.5" ro="1843"/>
+          <sample ab2="100" mn2="0.5" ro="2313"/>
+          <sample ab2="150" mn2="0.5" ro="2592"/>
+          <sample ab2="220" mn2="0.5" ro="3444"/>
+          <sample ab2="380" mn2="0.5" ro="3645"/>
+        </samples>
+        <image>p4#9.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="4" x="0" y="0" z="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="880"/>
+          <sample ab2="7" mn2="0.5" ro="880"/>
+          <sample ab2="9" mn2="0.5" ro="893"/>
+          <sample ab2="15" mn2="0.5" ro="986"/>
+          <sample ab2="20" mn2="0.5" ro="1074"/>
+          <sample ab2="25" mn2="0.5" ro="1292"/>
+          <sample ab2="40" mn2="0.5" ro="1576"/>
+          <sample ab2="65" mn2="0.5" ro="1817"/>
+          <sample ab2="100" mn2="0.5" ro="2217"/>
+          <sample ab2="150" mn2="0.5" ro="2743"/>
+          <sample ab2="220" mn2="0.5" ro="3208"/>
+          <sample ab2="380" mn2="0.5" ro="3914"/>
+        </samples>
+        <image>p4#10.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+      <curve name="5" x="0" y="0" z="0">
+        <samples>
+          <sample ab2="5" mn2="0.5" ro="868"/>
+          <sample ab2="7" mn2="0.5" ro="893"/>
+          <sample ab2="9" mn2="0.5" ro="918"/>
+          <sample ab2="15" mn2="0.5" ro="1000"/>
+          <sample ab2="20" mn2="0.5" ro="1153"/>
+          <sample ab2="25" mn2="0.5" ro="1273"/>
+          <sample ab2="40" mn2="0.5" ro="1510"/>
+          <sample ab2="65" mn2="0.5" ro="1791"/>
+          <sample ab2="100" mn2="0.5" ro="2346"/>
+          <sample ab2="150" mn2="0.5" ro="3074"/>
+          <sample ab2="220" mn2="0.5" ro="3750"/>
+          <sample ab2="380" mn2="0.5" ro="4202"/>
+        </samples>
+        <image>p4#11.PLT.gif</image>
+        <curvedescr></curvedescr>
+        <operator>Кашкаров А.А.</operator>
+        <calculator>Кашкаров А.А.</calculator>
+        <weather>Ясно</weather>
+        <device>АНЧ-3</device>
+      </curve>
+    </curves>
+  </profil>
+</area>

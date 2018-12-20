@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<!--<?xml-stylesheet type="text/xsl" href="vez_new.xsl"?>-->
+<area id="Bel0" name="Белоярский">
+	<areadescr>Участок Белоярский, работы на IV энергоблоке по договору</areadescr>
+	<profil id="Bel0pr0" name="profil 1" type="profil">
+	<profildescr>Profil 1</profildescr>
+		<curves>
+			<curve id="Bel0pr0c0" name="ves 1" pk="1" date="27.08.2002" x="0" y="0" z="0" rms="5" layers="3">
+				<samples>
+					<sample ab2="5" mn2="0.5" i="10" u="1" diap="1" ro="100" rt="100" note="" />
+					<sample ab2="7" mn2="0.5" i="10" u="1" diap="1" ro="100" rt="110" note="" />
+					<sample ab2="9" mn2="0.5" i="10" u="1" diap="1" ro="150" rt="160" note="кварц" />
+					<sample ab2="15" mn2="0.5" i="10" u="1" diap="1" ro="220" rt="220" note="" />
+					<sample ab2="25" mn2="0.5" i="10" u="1" diap="1" ro="100" rt="110" note="" />
+					<sample ab2="65" mn2="0.5" i="10" u="1" diap="1" ro="100" rt="99" note="" />
+					<sample ab2="100" mn2="0.5" i="10" u="1" diap="1" ro="100" rt="80" note="" />
+				</samples>
+				<layers>
+					<layer id="1" h="1" r="100" />
+					<layer id="2" h="10" r="300" />
+					<layer id="3" h="INFINITY" r="1000" />
+				</layers>
+				<image>bel0001.gif</image>
+				<curvedescr />
+				<operator>Иванов И.И.</operator>
+				<calculator>Петров А.А.</calculator>
+				<weather>Ясно</weather>
+				<device>АНЧ-3</device>
+			</curve>
+			<curve id="Bel0pr0c1" name="ves 2" pk="2" date="27.08.2002" x="0" y="0" z="0" rms="100" layers="0">
+				<samples>
+					<sample ab2="5" mn2="0.5" i="10" u="1" diap="1" ro="200" rt="0" note="" />
+					<sample ab2="7" mn2="0.5" i="10" u="1" diap="1" ro="200" rt="0" note="" />
+					<sample ab2="9" mn2="0.5" i="10" u="1" diap="1" ro="250" rt="0" note="помехи" />
+					<sample ab2="15" mn2="0.5" i="10" u="1" diap="1" ro="220" rt="0" note="" />
+					<sample ab2="25" mn2="0.5" i="10" u="1" diap="1" ro="200" rt="0" note="" />
+					<sample ab2="65" mn2="0.5" i="10" u="1" diap="1" ro="200" rt="0" note="" />
+					<sample ab2="100" mn2="0.5" i="10" u="1" diap="1" ro="200" rt="0" note="" />
+				</samples>
+				<layers>
+					<layer id="1" h="0" r="0" />
+				</layers>
+				<image>bel0001.gif</image>
+				<curvedescr />
+				<operator />
+				<calculator>Петров Петр</calculator>
+				<weather>Ясно</weather>
+				<device>АНЧ-3</device>
+			</curve>
+			<curve id="Bel0pr0c2" name="ves 3" pk="3" date="27.08.2002" x="0" y="0" z="0" rms="100" layers="0">
+				<samples>
+					<sample ab2="5" mn2="0.5" i="10" u="1" diap="1" ro="300" rt="0" note="" />
+					<sample ab2="7" mn2="0.5" i="10" u="1" diap="1" ro="300" rt="0" note="яма" />
+					<sample ab2="9" mn2="0.5" i="10" u="1" diap="1" ro="350" rt="0" note="" />
+					<sample ab2="15" mn2="0.5" i="10" u="1" diap="1" ro="320" rt="0" note="" />
+					<sample ab2="25" mn2="0.5" i="10" u="1" diap="1" ro="300" rt="0" note="" />
+					<sample ab2="65" mn2="0.5" i="10" u="1" diap="1" ro="300" rt="0" note="" />
+					<sample ab2="100" mn2="0.5" i="10" u="1" diap="1" ro="300" rt="0" note="" />
+				</samples>
+				<layers>
+					<layer id="1" h="0" r="0" />
+				</layers>
+				<image>bel0001.gif</image>
+				<curvedescr>В районе дороги</curvedescr>
+				<operator />
+				<calculator />
+				<weather>Ясно</weather>
+				<device>АНЧ-3</device>
+			</curve>
+		</curves>
+	</profil>
+	<profil id="Bel0pr1" name="2" type="curves">
+	<profildescr>Profil 2</profildescr>
+		<curves>
+			<curve id="Bel0pr1с0" name="ves 4" pk="4" date="27.08.2002" x="0" y="0" z="0" rms="100" layers="0">
+				<samples>
+					<sample ab2="5" mn2="0.5" i="10" u="1" diap="1" ro="400" rt="0" note="" />
+					<sample ab2="7" mn2="0.5" i="10" u="1" diap="1" ro="400" rt="0" note="" />
+					<sample ab2="9" mn2="0.5" i="10" u="1" diap="1" ro="450" rt="0" note="" />
+					<sample ab2="15" mn2="0.5" i="10" u="1" diap="1" ro="420" rt="0" note="дорога" />
+					<sample ab2="25" mn2="0.5" i="10" u="1" diap="1" ro="400" rt="0" note="" />
+					<sample ab2="65" mn2="0.5" i="10" u="1" diap="1" ro="400" rt="0" note="" />
+					<sample ab2="100" mn2="0.5" i="10" u="1" diap="1" ro="400" rt="0" note="дорога" />
+				</samples>
+				<layers>
+					<layer id="1" h="0" r="0" />
+				</layers>
+				<image />
+				<curvedescr />
+				<operator>Иванов И.И.</operator>
+				<calculator>Сидоров Федор</calculator>
+				<weather>так себе</weather>
+				<device>АНЧ-3</device>
+			</curve>
+		</curves>
+	</profil>
+</area>

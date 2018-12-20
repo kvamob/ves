@@ -1,0 +1,12 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\.ves]
+@="VES4Win"
+
+[HKEY_CLASSES_ROOT\VES4Win]
+@="VES for Windows"
+
+[HKEY_CLASSES_ROOT\VES4Win\DefaultIcon]
+@="C:\USER\VEZ\VES_BCB\Ves4Win.exe,0" 
+[HKEY_CLASSES_ROOT\VES4Win\shell\open\command]
+@="C:\USER\VEZ\VES_BCB\Ves4Win.exe "%1""

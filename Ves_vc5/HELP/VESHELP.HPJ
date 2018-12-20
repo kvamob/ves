@@ -1,0 +1,15 @@
+[OPTIONS]
+errorlog=veshelp.err
+title=VES for Windows Help
+copyright= (c) Korotkov V.A. 1995
+contents=cont
+compress=0
+warning=3
+report=1
+[FILES]
+veshelp.rtf
+[WINDOWS]
+main="VES for Windows Help",,,,(255,255,192)
+wnd="Commands",(100,100,900,500),,,(255,255,192),1
+[CONFIG]
+BrowseButtons()
