@@ -1,4 +1,4 @@
-//#define _VERSION_ "В.Коротков (c) 1995-2000  v1.1b"
+#define _VERSION_ "В.Коротков (c) 1995-2000,2018  v1.2"
 /*------------------------ ves_comp.c ---------------------*/
 /*         Коротков В. (c) 1995 Екатеринбург               */
 /*               Программа vez_comp.exe                    */
@@ -29,7 +29,7 @@
 
 /* ------------------------- Пpототипы ---------------------------*/
 
-void pascal visa( void );
+void visa( void );
 char *FindStringWithDelimiter( FILE *fp,char delim,char *str,int len,
 			       char *brkstring );
 int ScanFile( FILE *fp, char *str,int len, char *substr );
@@ -71,11 +71,11 @@ _                M A I N                  _
 _                                         _
 ___________________________________________
 */
-int cdecl main( int argc, char *argv[] )
+int main( int argc, char *argv[] )
 {
 PROFIL  pr;         /* Описание профиля ВЭЗ   */
 
- clrscr();
+// clrscr();
  visa();
  if ( argc < 2 )
     { IndError();
@@ -115,7 +115,7 @@ PROFIL  pr;         /* Описание профиля ВЭЗ   */
        return 1; 
      }
  
- clrscr();
+// clrscr();
  recno = 0;
  while( ! txt_ReadCurve( inf, &(pr.vez))) // читать кривую
   {
@@ -137,7 +137,9 @@ PROFIL  pr;         /* Описание профиля ВЭЗ   */
        return 1; 
      }
 
- fcloseall();
+// fcloseall();
+ fclose(inf);
+ fclose(out);
  return 0;
 }
 
@@ -146,7 +148,7 @@ PROFIL  pr;         /* Описание профиля ВЭЗ   */
 /* -----------------------------------------------------------
    visa
 --------------------------------------------------------------*/
-void pascal visa( void )
+void visa( void )
 {
 char *cpyright =
 "_____________________________________________________\n\r"
@@ -155,7 +157,8 @@ char *cpyright =
 "_ в  двоичные  файлы  формата  VES  для  проекта    _\n\r"
 "_                VES for Windows                    _\n\r"
 "_____________________________________________________\n\r";
-cputs(cpyright);
+puts(cpyright);
+puts(_VERSION_);
 }
 
 /*-------------------------------------------------------------------------
@@ -265,7 +268,7 @@ static int recno = 0;    /* номер записи */
  memset( vez, 0, sizeof(VEZ) ); // Обнулим структуру vez
 
  ++ recno ;
- clrscr();
+// clrscr();
 // vez->ID_curve[19] = 0;
  rmin = 10000000;
  rmax = 0;
@@ -338,7 +341,7 @@ static int recno = 0;    /* номер записи */
 ---------------------------------------------------------------*/
 void out_error( char *msg )
 {
-  gotoxy(24, 40 - strlen(msg) / 2);
+//  gotoxy(24, 40 - strlen(msg) / 2);
   puts(msg);
   getch();
 }
@@ -498,14 +501,22 @@ float v, a, b;
 ---------------------------------------------------------------------- */
 void CreateFileName( char *instr, char *outstr )
 {
-char drive[MAXDRIVE];
-char dir[MAXDIR];
-char file[MAXFILE];
-char ext[MAXEXT];
+//char drive[MAXDRIVE];
+//char dir[MAXDIR];
+//char file[MAXFILE];
+//char ext[MAXEXT];
+char drive[3];
+char dir[256];
+char file[256];
+char ext[256];
+
 char newext[] = ".ves";
 
-  fnsplit( instr, drive, dir, file, ext);
-  fnmerge( outstr,drive, dir, file,newext);
+//  fnsplit(instr, drive, dir, file, ext);
+//  fnmerge(outstr, drive, dir, file, newext);
+  _splitpath(instr, drive, dir, file, ext);
+  _makepath(outstr, drive, dir, file, newext);
+
 }
 
 
@@ -514,9 +525,9 @@ char newext[] = ".ves";
 ---------------------------------------------- */
 void IndError( void )
 {
-textcolor(WHITE+128);
-cprintf("\n\r****** ");
-textcolor(LIGHTGRAY);
+//textcolor(WHITE+128);
+printf("\n\r****** ");
+//textcolor(LIGHTGRAY);
 }
 
 /* --------------------------------------------------------------
