@@ -39,7 +39,7 @@ int _WriteProfilHdr( FILE *fp, PROFIL *pr );
 int txt_ReadCurve( FILE *fp, VEZ *vez );
 int Check_VEZ_File( FILE *fp );
 
-short get_diapason( float min_val, float max_val, float *x0, int *Decades );
+short get_diapason( float min_val, float max_val, float *x0, short int *Decades );
 
 //void out_error( char *msg );
 void out_help( char *hint );
@@ -443,7 +443,7 @@ return strncmp( signature, "VEZFILE", 7 ); /* сигнатура VEZFILE */
    При нормальном завершении функция возвращает 0, при ошибке 1.
    Ошибка - если значение min_val < 0.001 или max_val > 10**10
 ---------------------------------------------------------------------- */
-short get_diapason( float min_val, float max_val, float *x0, int *Decades )
+short get_diapason( float min_val, float max_val, float *x0, short int *Decades )
 {
 int p;
 float v, a, b;
@@ -505,10 +505,10 @@ void CreateFileName( char *instr, char *outstr )
 //char dir[MAXDIR];
 //char file[MAXFILE];
 //char ext[MAXEXT];
-char drive[3];
-char dir[256];
-char file[256];
-char ext[256];
+char drive[_MAX_DRIVE];
+char dir[_MAX_DIR];
+char file[_MAX_FNAME];
+char ext[_MAX_EXT];
 
 char newext[] = ".ves";
 
