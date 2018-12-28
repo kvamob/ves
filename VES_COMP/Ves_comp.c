@@ -1,6 +1,6 @@
 #define _VERSION_ "В.Коротков (c) 1995-2000,2018  v1.2"
 /*------------------------ ves_comp.c ---------------------*/
-/*         Коротков В. (c) 1995 Екатеринбург               */
+/*         Коротков В. (c) 1995, 2018 Екатеринбург         */
 /*               Программа vez_comp.exe                    */
 /*---------------------------------------------------------*/
 /* Программа компилирует текстовые файлы VEZ-формата (вход */
@@ -10,7 +10,7 @@
 /* Project  : ves.h ves_comp.c                             */
 /* Model    : small                                        */
 /* Library  :                                              */
-/* Compiler : Turbo C v2.0 ,Borland C++ v x.x, C++ Builder */
+/* Compiler : mingw-w64                                    */
 /*---------------------------------------------------------*/
 
 #pragma  hdrstop
@@ -137,8 +137,9 @@ PROFIL  pr;         /* Описание профиля ВЭЗ   */
      }
 
 // fcloseall();
- fclose(inf);
- fclose(out);
+ _fcloseall();
+// fclose(inf);
+// fclose(out);
  return 0;
 }
 
@@ -310,11 +311,11 @@ static int recno = 0;    /* номер записи */
 //   code = sscanf( str, "%f%f", &a, &r ); /* читаем */
 //   if ( code == 2 )
      {  vez->curve.AB2[ cnt ]  = a;
-	vez->curve.fRok[ cnt ] = r;
-	if ( r < rmin ) rmin = r;
-	if ( r > rmax ) rmax = r;
-	++ cnt;
-      }
+    	vez->curve.fRok[ cnt ] = r;
+	    if ( r < rmin ) rmin = r;
+	    if ( r > rmax ) rmax = r;
+	    ++ cnt;
+     }
   } while( !ferror(fp) );
   vez->curve.n = cnt;
   vez->first_absc = vez->curve.AB2[0];
