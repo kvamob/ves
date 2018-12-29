@@ -27,43 +27,30 @@
 /* ------------------------- Пpототипы ---------------------------*/
 
 void out_help(char *hint);
-
 void IndError(void);
-
 void visa(void);
-
 char *FindStringWithDelimiter(FILE *fp, char delim, char *str, int len,
                               char *brkstring);
-
 int ScanFile(FILE *fp, char *str, int len, char *substr);
-
 int ReadCurve(FILE *fp, VEZ *vez);
-
 void out_error(char *msg);
-
 int Check_VEZ_File(FILE *fp);
-
-int get_info(FILE *in, PROFIL *pr );
-
+int get_info(FILE *in, PROFIL *pr);
 int get_diapason(float min_val, float max_val, float *x0, int *Decades);
-
 
 /* ----------------- ГЛОБАЛЬHЫЕ ПЕРЕМЕHHЫЕ ---------------------- */
 
-#define DELIMITER  58           /* символ-разделитель ':' */
+#define DELIMITER 58 /* символ-разделитель ':' */
+#define LEN 120      /* Длина вспомог. буфера */
 
-char crv_begin[] = "#curve";     /* строка - признак начала кривой */
-char crv_end[] = "#endcurve";    /* строка - признак конца кривой  */
-
-#define LEN 120                   /* Длина вспомог. буфера */
-char str[LEN];                    /* Вспомог. буфер        */
-
-char inname[64];         /* Имя входного ВЭЗ-файла */
-FILE *inf;               /* Входной VEZ - файл  */
-char xyz_name[64];       /* Имя выходного XYZ-файла */
-FILE *out;               /* Выходной XYZ - файл */
-
-int recno;            /* Порядковый номер текущей кривой в VEZ-файле */
+char crv_begin[] = "#curve";  /* строка - признак начала кривой */
+char crv_end[] = "#endcurve"; /* строка - признак конца кривой  */
+char str[LEN];                /* Вспомог. буфер        */
+char inname[64];              /* Имя входного ВЭЗ-файла */
+FILE *inf;                    /* Входной VEZ - файл  */
+char xyz_name[64];            /* Имя выходного XYZ-файла */
+FILE *out;                    /* Выходной XYZ - файл */
+int recno;                    /* Порядковый номер текущей кривой в VEZ-файле */
 
 /*
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -72,70 +59,68 @@ int recno;            /* Порядковый номер текущей кривой в VEZ-файле */
 ▌                                         ▐
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 */
-int main(int argc, char *argv[]) {
-    PROFIL pr;          /* Описание профиля ВЭЗ   */
-    VEZ vez;            /* Полная кривая ВЭЗ      */
-    float Scale;        /* Знаменатель масштаба, в котором планируется  */
-                        /* построение вертикальной карты  сопротивлений */
+int main(int argc, char *argv[])
+{
+    PROFIL pr;   /* Описание профиля ВЭЗ   */
+    VEZ vez;     /* Полная кривая ВЭЗ      */
+    float Scale; /* Знаменатель масштаба, в котором планируется  */
+                 /* построение вертикальной карты  сопротивлений */
     int i;
 
-//    clrscr();
     visa();
-    if (argc < 4) {
+    if (argc < 4)
+    {
         IndError();
         out_help("Ошибка в командной строке !");
         return -1;
     }
-    strcpy(inname, argv[1]);  /* имя вх.файла - из командной строки */
+    strcpy(inname, argv[1]); /* имя вх.файла - из командной строки */
     printf("\n ФАЙЛ %s\n", inname);
-    strcpy(xyz_name, argv[2]);  /* имя вых.файла - из командной строки */
-    Scale = atof(argv[3]);      /* знамен. масштаба - из командной строки */
+    strcpy(xyz_name, argv[2]); /* имя вых.файла - из командной строки */
+    Scale = atof(argv[3]);     /* знамен. масштаба - из командной строки */
 
-    if (NULL == (inf = fopen(inname, "rt"))) {
+    if (NULL == (inf = fopen(inname, "rt")))
+    {
         IndError();
         puts("Ошибка откpытия вх. файла !\n");
         return 1;
     }
 
-    if (NULL == (out = fopen(xyz_name, "wt"))) {
+    if (NULL == (out = fopen(xyz_name, "wt")))
+    {
         IndError();
         printf("Ошибка откpытия вых. файла %s!\n", xyz_name);
         return 1;
     }
 
-    if (Check_VEZ_File(inf)) {
+    if (Check_VEZ_File(inf))
+    {
         IndError();
         printf("\7Входной файл %s не является VEZ-файлом!\n", inname);
         out_help("");
         return 1;
     }
 
-    if (get_info(inf, &pr))   /* Пpочитать заголовок VEZ-файла */
+    if (get_info(inf, &pr)) /* Пpочитать заголовок VEZ-файла */
         return 1;
 
-//    window(1, 10, 79, 25);
-//    clrscr();
-
     recno = 1;
-    while (!ReadCurve(inf, &vez)) {
-        for (i = 0; i < vez.curve.n; i++) {
+    while (!ReadCurve(inf, &vez))
+    {
+        for (i = 0; i < vez.curve.n; i++)
+        {
             fprintf(out, "%f %f %f\n",
                     vez.X, -(log10(vez.curve.AB2[i] / vez.curve.AB2[0]) * Scale / 25), vez.curve.fRok[i]);
         }
         ++recno;
-        if (ferror(out))   /* Если была ошибка записи в файл */
+        if (ferror(out)) /* Если была ошибка записи в файл */
         {
             IndError();
             puts("\7\7Ошибка записи на диск !");
             return 1;
         }
-//    printf("\nPress Any Key ...");
-//    getch();
     }
 
-//    fcloseall();
-//    fclose(inf);
-//    fclose(out);
     _fcloseall();
     return 0;
 }
@@ -143,13 +128,14 @@ int main(int argc, char *argv[]) {
 /* -----------------------------------------------------------
    visa
 --------------------------------------------------------------*/
-void visa(void) {
+void visa(void)
+{
     char cpyright[] =
-            "▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n\r"\
-            "▌           Программа  vez_xyz            ▐\n\r"\
-            "▌ Преобразование профилей ВЭЗ в XYZ-файлы ▐\n\r"\
-            "▌           В.Коротков (c) 1995,2018      ▐\n\r"\
-            "▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n\r";
+        "▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n\r"
+        "▌           Программа  vez_xyz            ▐\n\r"
+        "▌ Преобразование профилей ВЭЗ в XYZ-файлы ▐\n\r"
+        "▌           В.Коротков (c) 1995,2018      ▐\n\r"
+        "▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n\r";
     puts(cpyright);
     puts(VERSION);
 }
@@ -167,23 +153,25 @@ void visa(void) {
    указанная в brkstring, то происходит прекращение поиска и выход
    с кодом NULL
 ---------------------------------------------------------------------------*/
-char *FindStringWithDelimiter(FILE * fp, char delim, char *str, int len, char *brkstring )
+char *FindStringWithDelimiter(FILE *fp, char delim, char *str, int len, char *brkstring)
 {
     char *ptr;
 
-    do {
+    do
+    {
         str[0] = 0;
-        fgets( str, len, fp
-    );      /* читаем строку */
-    ptr = strchr(str, ';');   /* Ищем символ начала комментария */
-    if ( ptr ) *ptr = 0;        /* Вставляем вместо него конец строки */
-    ptr = strchr(str, delim); /* Ищем символ - разделитель */
-    if ( ptr ) return ++ptr;   /* Если есть - выход */
-    if (strstr( str, brkstring)) return NULL;
-    }
-    while ((!feof(fp)) && (!ferror(fp)));
+        fgets(str, len, fp);    /* читаем строку */
+        ptr = strchr(str, ';'); /* Ищем символ начала комментария */
+        if (ptr)
+            *ptr = 0;             /* Вставляем вместо него конец строки */
+        ptr = strchr(str, delim); /* Ищем символ - разделитель */
+        if (ptr)
+            return ++ptr; /* Если есть - выход */
+        if (strstr(str, brkstring))
+            return NULL;
+    } while ((!feof(fp)) && (!ferror(fp)));
 
-return NULL;    /* ошибка или конец файла */
+    return NULL; /* ошибка или конец файла */
 }
 
 /* ------------------------------------------------------------
@@ -191,38 +179,40 @@ return NULL;    /* ошибка или конец файла */
    и заполнить стpуктуpу pr.
    Возвpащает 1 пpи ошибке, иначе 0
 ---------------------------------------------------------------*/
-int get_info( FILE *in, PROFIL *pr)
+int get_info(FILE *in, PROFIL *pr)
 {
 #define LEN 120
-int n;
-float d;
-char *ptr;
-char str[LEN];
-pr->areaname[39] = 0;
-pr->profname[19] = 0;
+    int n;
+    float d;
+    char *ptr;
+    char str[LEN];
+    pr->areaname[39] = 0;
+    pr->profname[19] = 0;
 
-/* ищем  имя участка  */
-if ( NULL == (ptr = FindStringWithDelimiter(in, DELIMITER, str, LEN, crv_begin)))
-{
-IndError();
-puts("\7Имя участка не найдено !\n"); return 1;
-}
+    /* ищем  имя участка  */
+    if (NULL == (ptr = FindStringWithDelimiter(in, DELIMITER, str, LEN, crv_begin)))
+    {
+        IndError();
+        puts("\7Имя участка не найдено !\n");
+        return 1;
+    }
 
-strncpy( pr->areaname, ptr, 39 ); /* Имя участка */
-printf(" УЧАСТОК : %s\n", pr->areaname);
-puts("--------------------------------------------------------------------");
+    strncpy(pr->areaname, ptr, 39); /* Имя участка */
+    printf(" УЧАСТОК : %s\n", pr->areaname);
+    puts("--------------------------------------------------------------------");
 
-/* ищем  имя профиля  */
-if ( NULL == (ptr = FindStringWithDelimiter(in, DELIMITER, str, LEN, crv_begin)))
-{
-IndError();
+    /* ищем  имя профиля  */
+    if (NULL == (ptr = FindStringWithDelimiter(in, DELIMITER, str, LEN, crv_begin)))
+    {
+        IndError();
 
-puts("\7Имя профиля не найдено !\n"); return 1;
-}
-strncpy( pr->profname, ptr, 19 ); /* Имя участка */
-printf(" ПРОФИЛЬ : %s\n", pr->profname);
+        puts("\7Имя профиля не найдено !\n");
+        return 1;
+    }
+    strncpy(pr->profname, ptr, 19); /* Имя участка */
+    printf(" ПРОФИЛЬ : %s\n", pr->profname);
 
-return 0;
+    return 0;
 }
 
 /*-------------------------------------------------------------------------
@@ -234,19 +224,22 @@ return 0;
    обнаружена. В этом случае функция возвращает 0. При достижении конца
    файла или при ошибке возвращается 1.
 ---------------------------------------------------------------------------*/
-int ScanFile(FILE * fp, char * str, int len, char *substr)
+int ScanFile(FILE *fp, char *str, int len, char *substr)
 {
-char *ptr;
+    char *ptr;
 
-do {
-    str[0] = 0;
-    fgets( str, len, fp);      /* читаем строку */
-    ptr = strchr(str, ';');   /* Ищем символ начала комментария */
-    if ( ptr ) *ptr = 0;        /* Вставляем вместо него конец строки */
-    if (strstr( str, substr)) return 0; /* подстрока найдена ! */
-} while ((!feof(fp)) && (!ferror(fp)));
+    do
+    {
+        str[0] = 0;
+        fgets(str, len, fp);    /* читаем строку */
+        ptr = strchr(str, ';'); /* Ищем символ начала комментария */
+        if (ptr)
+            *ptr = 0; /* Вставляем вместо него конец строки */
+        if (strstr(str, substr))
+            return 0; /* подстрока найдена ! */
+    } while ((!feof(fp)) && (!ferror(fp)));
 
-return 1;    /* ошибка или конец файла */
+    return 1; /* ошибка или конец файла */
 }
 
 /* ------------------------------------------------------------
@@ -255,33 +248,37 @@ return 1;    /* ошибка или конец файла */
    При достижении  конца файла возвращает 1.
    При успешном завершении возвращает 0.
 ---------------------------------------------------------------*/
-int ReadCurve(FILE * fp, VEZ * vez) {
+int ReadCurve(FILE *fp, VEZ *vez)
+{
     int code, cnt;
     long oldpos;
     char *ptr;
     float a, r, rmin, rmax;
     static int already = 0;
-    static int recno = 0;    /* номер записи */
+    static int recno = 0; /* номер записи */
 
-    if (!already) {
+    if (!already)
+    {
         rewind(fp);
         already = 1;
     }
 
     ++recno;
-//    clrscr();
+    //    clrscr();
     vez->ID_curve[19] = 0;
     rmin = 10000000;
     rmax = 0;
     code = ScanFile(fp, str, LEN, crv_begin); /* Ищем признак начала кривой */
-    if (code) {
+    if (code)
+    {
         puts("\n <><> Кривых больше нет ... <><>\n");
         return 1;
     }
-    oldpos = ftell(fp);  /* запомним положение */
+    oldpos = ftell(fp); /* запомним положение */
 
     code = ScanFile(fp, str, LEN, crv_end); /* Ищем признак конца кривой */
-    if (code) {
+    if (code)
+    {
         IndError();
         puts("\7Признак конца кривой не найден ...\n");
         return 1;
@@ -290,7 +287,8 @@ int ReadCurve(FILE * fp, VEZ * vez) {
 
     /* ищем имя кривой */
     if (NULL ==
-        (ptr = FindStringWithDelimiter(fp, DELIMITER, str, LEN, crv_end))) {
+        (ptr = FindStringWithDelimiter(fp, DELIMITER, str, LEN, crv_end)))
+    {
         IndError();
         puts("\7Имя кривой не найдено !\n");
         return 1;
@@ -299,7 +297,8 @@ int ReadCurve(FILE * fp, VEZ * vez) {
     printf(" Запись #%3d,  ВЭЗ : %s\n", recno, vez->ID_curve);
     /* ищем координаты */
     if (NULL ==
-        (ptr = FindStringWithDelimiter(fp, DELIMITER, str, LEN, crv_end))) {
+        (ptr = FindStringWithDelimiter(fp, DELIMITER, str, LEN, crv_end)))
+    {
         IndError();
         puts("\7Координаты кривой не найдены !\n");
         return 1;
@@ -308,23 +307,28 @@ int ReadCurve(FILE * fp, VEZ * vez) {
     printf("Координаты : %8.1f %8.1f %8.1f\n", vez->X, vez->Y, vez->Z);
 
     /* теперь сами отсчеты */
-    cnt = 0;   /* счетчик отсчетов */
-    do {
+    cnt = 0; /* счетчик отсчетов */
+    do
+    {
         str[0] = 0;
         fgets(str, LEN, fp);    /* читаем строку */
         ptr = strchr(str, ';'); /* Ищем символ начала комментария */
-        if (ptr) *ptr = 0;      /* Вставляем вместо него конец строки */
-        if (strstr(str, crv_end)) break; /* конец кривой найден ! */
-        
+        if (ptr)
+            *ptr = 0; /* Вставляем вместо него конец строки */
+        if (strstr(str, crv_end))
+            break; /* конец кривой найден ! */
+
         // code = sscanf(str, "%f%f", &a, &r); /* читаем */
-        // if (code == 2) 
-        code = sscanf( str, "%f%f%f%f%f%f%f", &a, &r, &r, &r, &r, &r, &r ); /* читаем */
-        if ( code == 7 )
+        // if (code == 2)
+        code = sscanf(str, "%f%f%f%f%f%f%f", &a, &r, &r, &r, &r, &r, &r); /* читаем */
+        if (code == 7)
         {
             vez->curve.AB2[cnt] = a;
             vez->curve.fRok[cnt] = r;
-            if (r < rmin) rmin = r;
-            if (r > rmax) rmax = r;
+            if (r < rmin)
+                rmin = r;
+            if (r > rmax)
+                rmax = r;
             ++cnt;
         }
     } while (!ferror(fp));
@@ -344,13 +348,12 @@ int ReadCurve(FILE * fp, VEZ * vez) {
     return 0;
 }
 
-
 /* ------------------------------------------------------------
    out_error Выводит на экран сообщение об ошибке
 ---------------------------------------------------------------*/
 void out_error(char *msg)
 {
-//    gotoxy(24, 40 - strlen(msg) / 2);
+    //    gotoxy(24, 40 - strlen(msg) / 2);
     puts(msg);
     getch();
 }
@@ -359,19 +362,20 @@ void out_error(char *msg)
    out_help Выводит подсказку из строки hint и создает шаблон входного
    VEZ-файла
 ----------------------------------------------------------------------*/
-void out_help(char *hint) {
+void out_help(char *hint)
+{
     char fname[] = "vez_xyz.hlp";
-    FILE * out;
+    FILE *out;
 
-    printf
-            ("\7 %s\n\n"
-             " Использование программы : vez_xyz.exe <VEZfile> <OutFile> <Scale>\n"
-             "  где VEZfile - имя входного  файла формата VEZ,\n"
-             "      OutFile - имя выходного XYZ-файла\n"
-             "      Scale   - знаменатель  масштаба, в котором будет строиться карта\n"
-             "Прмер оформления VEZ-файла смотрите в файле %s\n", hint, fname);
+    printf("\7 %s\n\n"
+           " Использование программы : vez_xyz.exe <VEZfile> <OutFile> <Scale>\n"
+           "  где VEZfile - имя входного  файла формата VEZ,\n"
+           "      OutFile - имя выходного XYZ-файла\n"
+           "      Scale   - знаменатель  масштаба, в котором будет строиться карта\n"
+           "Прмер оформления VEZ-файла смотрите в файле %s\n",
+           hint, fname);
 
-    if (NULL == (out = fopen(fname, "wt")))  /* откроем файл */
+    if (NULL == (out = fopen(fname, "wt"))) /* откроем файл */
     {
         IndError();
         printf("\7Ошибка открытия файла %s для записи!\n", fname);
@@ -421,10 +425,9 @@ void out_help(char *hint) {
             "5\t0,5\t77,7543525\t34\t100\t10\t264\n"
             "#endcurve\n");
 
-
     fclose(out);
     printf("\n\n Hажмите любую клавишу ...");
-    getch();    /* Ждем-с */
+    getch(); /* Ждем-с */
     return;
 }
 
@@ -434,7 +437,8 @@ void out_help(char *hint) {
    fp - указатель на проверяемый VEZ-файл.
    При  успешном завершении возвращает 0
 ----------------------------------------------------------------------*/
-int Check_VEZ_File(FILE * fp) {
+int Check_VEZ_File(FILE *fp)
+{
     char signature[8];
 
     rewind(fp);
@@ -444,15 +448,15 @@ int Check_VEZ_File(FILE * fp) {
     return strncmp(signature, "VEZFILE", 7); /* сигнатура VEZFILE */
 }
 
-
 /*--------------------------------------------
   IndError Выдает индикацию ошибки
 ---------------------------------------------- */
-void IndError(void) {
-//    textcolor(WHITE + 128);
-//    cprintf("\n\r****** ");
+void IndError(void)
+{
+    //    textcolor(WHITE + 128);
+    //    cprintf("\n\r****** ");
     printf("\n\r****** ");
-//    textcolor(LIGHTGRAY);
+    //    textcolor(LIGHTGRAY);
 }
 
 /* -------------------------------------------------------------------
@@ -464,108 +468,113 @@ void IndError(void) {
    При нормальном завершении функция возвращает 0, при ошибке 1.
    Ошибка - если значение min_val < 0.001 или max_val > 10**10
 ---------------------------------------------------------------------- */
-int get_diapason(float min_val, float max_val, float *x0, int *Decades) {
+int get_diapason(float min_val, float max_val, float *x0, int *Decades)
+{
     int p;
     float v, a, b;
 
-    if (min_val < 0.001) return 1;
-    if (max_val > 1E10) return 1;
+    if (min_val < 0.001)
+        return 1;
+    if (max_val > 1E10)
+        return 1;
 
-    p = (int) floor(log10(min_val));
-    switch (p) {
-        case -3 :
-            *x0 = 0.001;
-            break;
-        case -2 :
-            *x0 = 0.01;
-            break;
-        case -1 :
-            *x0 = 0.1;
-            break;
-        case 0  :
-            *x0 = 1;
-            break;
-        case 1  :
-            *x0 = 10;
-            break;
-        case 2  :
-            *x0 = 100;
-            break;
-        case 3  :
-            *x0 = 1E3;
-            break;
-        case 4  :
-            *x0 = 1E4;
-            break;
-        case 5  :
-            *x0 = 1E5;
-            break;
-        case 6  :
-            *x0 = 1E6;
-            break;
-        case 7  :
-            *x0 = 1E7;
-            break;
-        case 8  :
-            *x0 = 1E8;
-            break;
-        case 9  :
-            *x0 = 1E9;
-            break;
-        case 10 :
-            *x0 = 1E10;
-            break;
+    p = (int)floor(log10(min_val));
+    switch (p)
+    {
+    case -3:
+        *x0 = 0.001;
+        break;
+    case -2:
+        *x0 = 0.01;
+        break;
+    case -1:
+        *x0 = 0.1;
+        break;
+    case 0:
+        *x0 = 1;
+        break;
+    case 1:
+        *x0 = 10;
+        break;
+    case 2:
+        *x0 = 100;
+        break;
+    case 3:
+        *x0 = 1E3;
+        break;
+    case 4:
+        *x0 = 1E4;
+        break;
+    case 5:
+        *x0 = 1E5;
+        break;
+    case 6:
+        *x0 = 1E6;
+        break;
+    case 7:
+        *x0 = 1E7;
+        break;
+    case 8:
+        *x0 = 1E8;
+        break;
+    case 9:
+        *x0 = 1E9;
+        break;
+    case 10:
+        *x0 = 1E10;
+        break;
     }
 
-    p = (int) ceil(log10(max_val));
-    switch (p) {
-        case -3 :
-            v = 0.001;
-            break;
-        case -2 :
-            v = 0.01;
-            break;
-        case -1 :
-            v = 0.1;
-            break;
-        case 0  :
-            v = 1;
-            break;
-        case 1  :
-            v = 10;
-            break;
-        case 2  :
-            v = 100;
-            break;
-        case 3  :
-            v = 1E3;
-            break;
-        case 4  :
-            v = 1E4;
-            break;
-        case 5  :
-            v = 1E5;
-            break;
-        case 6  :
-            v = 1E6;
-            break;
-        case 7  :
-            v = 1E7;
-            break;
-        case 8  :
-            v = 1E8;
-            break;
-        case 9  :
-            v = 1E9;
-            break;
-        case 10 :
-            v = 1E10;
-            break;
+    p = (int)ceil(log10(max_val));
+    switch (p)
+    {
+    case -3:
+        v = 0.001;
+        break;
+    case -2:
+        v = 0.01;
+        break;
+    case -1:
+        v = 0.1;
+        break;
+    case 0:
+        v = 1;
+        break;
+    case 1:
+        v = 10;
+        break;
+    case 2:
+        v = 100;
+        break;
+    case 3:
+        v = 1E3;
+        break;
+    case 4:
+        v = 1E4;
+        break;
+    case 5:
+        v = 1E5;
+        break;
+    case 6:
+        v = 1E6;
+        break;
+    case 7:
+        v = 1E7;
+        break;
+    case 8:
+        v = 1E8;
+        break;
+    case 9:
+        v = 1E9;
+        break;
+    case 10:
+        v = 1E10;
+        break;
     }
 
     a = log10(v);
     b = log10(*x0);
-    *Decades = (int) (a - b);
+    *Decades = (int)(a - b);
 
     return 0;
 }
