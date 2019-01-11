@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Git-REPOS/ves/VEZ_XYZ/VEZ_XYZ.C" "D:/Git-REPOS/ves/VEZ_XYZ/cmake-build-debug/CMakeFiles/vez_xyz.dir/VEZ_XYZ.C.obj"
+  "D:/GIT-REPOS/ves/VEZ_XYZ/VEZ_XYZ.C" "D:/GIT-REPOS/ves/VEZ_XYZ/cmake-build-debug/CMakeFiles/VEZ_XYZ.dir/VEZ_XYZ.C.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
