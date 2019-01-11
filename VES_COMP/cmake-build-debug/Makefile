@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Git-REPOS\ves\VES_COMP
+CMAKE_SOURCE_DIR = D:\GIT-REPOS\ves\VES_COMP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Git-REPOS\ves\VES_COMP\cmake-build-debug
+CMAKE_BINARY_DIR = D:\GIT-REPOS\ves\VES_COMP\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git-REPOS\ves\VES_COMP\cmake-build-debug\CMakeFiles D:\Git-REPOS\ves\VES_COMP\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GIT-REPOS\ves\VES_COMP\cmake-build-debug\CMakeFiles D:\GIT-REPOS\ves\VES_COMP\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git-REPOS\ves\VES_COMP\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GIT-REPOS\ves\VES_COMP\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ ves_comp/fast:
 	$(MAKE) -f CMakeFiles\ves_comp.dir\build.make CMakeFiles/ves_comp.dir/build
 .PHONY : ves_comp/fast
 
-ves_comp.obj: ves_comp.c.obj
+Ves_comp.obj: Ves_comp.c.obj
 
-.PHONY : ves_comp.obj
+.PHONY : Ves_comp.obj
 
 # target to build an object file
-ves_comp.c.obj:
-	$(MAKE) -f CMakeFiles\ves_comp.dir\build.make CMakeFiles/ves_comp.dir/ves_comp.c.obj
-.PHONY : ves_comp.c.obj
+Ves_comp.c.obj:
+	$(MAKE) -f CMakeFiles\ves_comp.dir\build.make CMakeFiles/ves_comp.dir/Ves_comp.c.obj
+.PHONY : Ves_comp.c.obj
 
-ves_comp.i: ves_comp.c.i
+Ves_comp.i: Ves_comp.c.i
 
-.PHONY : ves_comp.i
+.PHONY : Ves_comp.i
 
 # target to preprocess a source file
-ves_comp.c.i:
-	$(MAKE) -f CMakeFiles\ves_comp.dir\build.make CMakeFiles/ves_comp.dir/ves_comp.c.i
-.PHONY : ves_comp.c.i
+Ves_comp.c.i:
+	$(MAKE) -f CMakeFiles\ves_comp.dir\build.make CMakeFiles/ves_comp.dir/Ves_comp.c.i
+.PHONY : Ves_comp.c.i
 
-ves_comp.s: ves_comp.c.s
+Ves_comp.s: Ves_comp.c.s
 
-.PHONY : ves_comp.s
+.PHONY : Ves_comp.s
 
 # target to generate assembly for a file
-ves_comp.c.s:
-	$(MAKE) -f CMakeFiles\ves_comp.dir\build.make CMakeFiles/ves_comp.dir/ves_comp.c.s
-.PHONY : ves_comp.c.s
+Ves_comp.c.s:
+	$(MAKE) -f CMakeFiles\ves_comp.dir\build.make CMakeFiles/ves_comp.dir/Ves_comp.c.s
+.PHONY : Ves_comp.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... ves_comp
 	@echo ... edit_cache
-	@echo ... ves_comp.obj
-	@echo ... ves_comp.i
-	@echo ... ves_comp.s
+	@echo ... Ves_comp.obj
+	@echo ... Ves_comp.i
+	@echo ... Ves_comp.s
 .PHONY : help
 
 

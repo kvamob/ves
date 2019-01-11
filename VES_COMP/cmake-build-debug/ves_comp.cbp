@@ -8,82 +8,82 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Git-REPOS/ves/VES_COMP/cmake-build-debug"/>
+				<Option working_dir="D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Git-REPOS/ves/VES_COMP/cmake-build-debug"/>
+				<Option working_dir="D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ves_comp">
-				<Option output="D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/ves_comp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Git-REPOS/ves/VES_COMP/cmake-build-debug"/>
+				<Option output="D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/ves_comp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/minGW-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/minGW-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/minGW-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/minGW-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/minGW-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/minGW-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 ves_comp"/>
-					<CompileFile command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 ves_comp"/>
+					<CompileFile command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ves_comp/fast">
-				<Option output="D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/ves_comp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Git-REPOS/ves/VES_COMP/cmake-build-debug"/>
+				<Option output="D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/ves_comp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/minGW-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/minGW-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/minGW-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/minGW-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/minGW-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/minGW-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 ves_comp/fast"/>
-					<CompileFile command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 ves_comp/fast"/>
+					<CompileFile command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Git-REPOS/ves/VES_COMP/cmake-build-debug"/>
+				<Option working_dir="D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/minGW-w64/mingw64/bin/mingw32-make.exe -f &quot;D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Git-REPOS/ves/VES_COMP/ves_comp.c">
+		<Unit filename="D:/GIT-REPOS/ves/VES_COMP/Ves_comp.c">
 			<Option target="ves_comp"/>
 		</Unit>
-		<Unit filename="D:/Git-REPOS/ves/VES_COMP/CMakeLists.txt">
+		<Unit filename="D:/GIT-REPOS/ves/VES_COMP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

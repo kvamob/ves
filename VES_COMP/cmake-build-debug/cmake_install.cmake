@@ -1,4 +1,4 @@
-# Install script for directory: D:/Git-REPOS/ves/VES_COMP
+# Install script for directory: D:/GIT-REPOS/ves/VES_COMP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

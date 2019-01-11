@@ -1,3 +1,3 @@
-D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/CMakeFiles/ves_comp.dir
-D:/Git-REPOS/ves/VES_COMP/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/CMakeFiles/ves_comp.dir
+D:/GIT-REPOS/ves/VES_COMP/cmake-build-debug/CMakeFiles/edit_cache.dir

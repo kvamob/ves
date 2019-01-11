@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ves_comp.dir/ves_comp.c.obj"
+  "CMakeFiles/ves_comp.dir/Ves_comp.c.obj"
   "ves_comp.pdb"
   "ves_comp.exe"
   "ves_comp.exe.manifest"
