@@ -19,7 +19,7 @@ void Spline( float *x, float *y, int n, float *x_, float *y_, int n_ );
 /*******************************************************************
 			    M A I N
 ********************************************************************/
-void main( void )
+int main(void)
 {
 float rms;
 int   mi;

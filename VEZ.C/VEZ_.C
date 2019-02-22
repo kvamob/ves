@@ -49,7 +49,7 @@ void process( void );
 
 /* -------------- Глобальные переменные -------------------- */
 
-void main( void )
+int main(void)
 {
 process();
 }
